@@ -1,0 +1,3 @@
+#!/bin/sh
+rebar compile
+erl -pa ebin deps/*/ebin -smp -eval 'io:format ("~p~n~p~n", [mod_mongo:start_link (), mod_mongo:get_likes_comments (<<"1069601">>)])'

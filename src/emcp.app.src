@@ -1,0 +1,12 @@
+{application, emcp,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { emcp_app, []}},
+  {env, []}
+ ]}.
