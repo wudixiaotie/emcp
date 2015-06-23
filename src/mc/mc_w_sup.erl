@@ -1,4 +1,10 @@
--module (emcp_sup).
+%% ===================================================================
+%% Author xiaotie
+%% 2015-6-17
+%% mongo client worker supervisor
+%% ===================================================================
+
+-module (mc_w_sup).
 
 -behaviour (supervisor).
 
@@ -9,25 +15,18 @@
 -export ([init/1]).
 
 %% Helper macro for declaring children of supervisor
--define (CHILD (I, Args, Type), {I, {I, start_link, Args}, permanent, 5000, Type, [I]}).
+-define (CHILD(Mod, Args), {Mod, {Mod, start_link, Args}, temporary, brutal_kill, worker, [Mod]}).
 
 %% ===================================================================
 %% API functions
 %% ===================================================================
 
 start_link () ->
-    supervisor:start_link ({local, ?MODULE}, ?MODULE, []).
+    supervisor:start_link({local, ?MODULE}, ?MODULE, []).
 
 %% ===================================================================
 %% Supervisor callbacks
 %% ===================================================================
 
 init ([]) ->
-    PoolSize = emcp_config:pool_size (),
-    {ok, {
-          {one_for_one, 5, 10},
-          [
-            ?CHILD (mc_w_sup, [], supervisor),
-            ?CHILD (mc_w_manager, [PoolSize], worker)
-          ]
-         } }.
+    {ok, { {simple_one_for_one, 0, 1}, [?CHILD(mc_w, [])] } }.

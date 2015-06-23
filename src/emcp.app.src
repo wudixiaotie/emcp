@@ -8,5 +8,9 @@
                   stdlib
                  ]},
   {mod, { emcp_app, []}},
-  {env, []}
+  {env, [{pool_size, 10},
+         {host, "localhost"},
+         {port, 27017},
+         {db, <<"test">>},
+         {timeout, 2000}]}
  ]}.
