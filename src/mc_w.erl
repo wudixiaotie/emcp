@@ -15,11 +15,11 @@
 -export ([init/1, handle_call/3, handle_cast/2, handle_info/2,
           terminate/2, code_change/3]).
 
--record (state, {conn :: pid()}).
+-record (state, {conn :: pid ()}).
 
 
 %% ===================================================================
-%% Apis
+%% APIs
 %% ===================================================================
 
 start_link () ->
@@ -41,12 +41,8 @@ find_only (Collection, Selector, Projector) ->
 %% ===================================================================
 
 init ([]) ->
-    case new_connection () of
-        {ok, Connection} ->
-            {ok, #state{conn = Connection}};
-        {error, Reason} ->
-            {stop, Reason}
-    end.
+    {ok, Connection} = mc_c_manager:get_conn (),
+    {ok, #state{conn = Connection}}.
 
 
 handle_call ({find, Collection, Selector}, _From, State) ->
@@ -76,11 +72,6 @@ code_change (_OldVer, State, _Extra) -> {ok, State}.
 %% ===================================================================
 %% Internal functions
 %% ===================================================================
-
-new_connection () ->
-    {Host, Port, DB} = emcp_config:hpd (),
-    mongo:connect(DB, [{host, Host}, {port, Port}]).
-
 
 call (Request) ->
     TimeOut = emcp_config:timeout (),
@@ -115,7 +106,7 @@ get_data (Connection, Collection, Selector, Projector) ->
             Cursor = Reply,
             NewConnection = Connection;
         false ->
-            {ok, NewConnection} = new_connection (),
+            {ok, NewConnection} = mc_c_manager:get_conn (),
             Cursor = mongo:find (NewConnection, Collection, Selector, Projector)
     end,
     Result = mc_cursor:rest (Cursor),
@@ -124,12 +115,9 @@ get_data (Connection, Collection, Selector, Projector) ->
     {NewConnection, Result}.
 
 
-%% ===================================================================
-%% Business Internal functions
-%% ===================================================================
-
 merge_remove_duplicates (ListOfLists) ->
     lists:usort (lists:flatten (ListOfLists)).
+
 
 loop_result (MongoResult) -> loop_result (MongoResult, []).
 loop_result ([], ResultList) -> merge_remove_duplicates (ResultList);

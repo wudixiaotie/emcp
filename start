@@ -1,3 +1,4 @@
 #!/bin/sh
 rebar compile
-erl -pa ebin deps/*/ebin -smp -eval 'io:format ("~p~n~p~n", [emcp:start (), emcp:find_only (<<"jvm_likes">>, {like_to, <<"1069601">>}, {<<"author.uid">>, true})])'
+erl -pa ebin deps/*/ebin -smp
+# erl -pa ebin deps/*/ebin -smp -eval 'io:format ("~p~n~p~n", [emcp:start (), emcp:find_only (<<"jvm_likes">>, {like_to, <<"1069601">>}, {<<"author.uid">>, true})])'

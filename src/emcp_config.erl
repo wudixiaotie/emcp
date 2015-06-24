@@ -1,12 +1,13 @@
 -module (emcp_config).
 
--export ([pool_size/0, hpd/0, host/0, port/0, db/0, timeout/0]).
+-export ([pool_size/0, hpd/0, host/0, port/0, db/0, timeout/0, max_conn/0]).
 
--define (PoolSize, 10).
--define (Host, <<"localhost">>).
--define (Port, 27017).
--define (Db, <<"test">>).
--define (Timeout, 2000).
+-define (POOL_SIZE, 10).
+-define (HOST, <<"localhost">>).
+-define (PORT, 27017).
+-define (DB, <<"test">>).
+-define (TIMEOUT, 2000).
+-define (MAX_CONN, 10).
 
 
 %% ===================================================================
@@ -14,22 +15,25 @@
 %% ===================================================================
 
 pool_size () ->
-    get (pool_size, ?PoolSize).
+    get (pool_size, ?POOL_SIZE).
 
 hpd () ->
     {host (), port (), db ()}.
 
 host () ->
-    get (host, ?Host).
+    get (host, ?HOST).
 
 port () ->
-    get (port, ?Port).
+    get (port, ?PORT).
 
 db () ->
-    get (db, ?Db).
+    get (db, ?DB).
 
 timeout () ->
-    get (timeout, ?Timeout).
+    get (timeout, ?TIMEOUT).
+
+max_conn () ->
+    get (max_conn, ?MAX_CONN).
 
 
 

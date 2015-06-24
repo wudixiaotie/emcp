@@ -23,11 +23,12 @@ start_link () ->
 %% ===================================================================
 
 init ([]) ->
-    PoolSize = emcp_config:pool_size (),
     {ok, {
           {one_for_one, 5, 10},
           [
+            ?CHILD (mc_c_sup, [], supervisor),
+            ?CHILD (mc_c_manager, [], worker),
             ?CHILD (mc_w_sup, [], supervisor),
-            ?CHILD (mc_w_manager, [PoolSize], worker)
+            ?CHILD (mc_w_manager, [], worker)
           ]
          } }.

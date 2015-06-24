@@ -1,0 +1,1472 @@
+2015-06-24 12:37:41.931 [info] <0.7.0> Application lager started on node nonode@nohost
+2015-06-24 12:37:41.934 [info] <0.7.0> Application bson started on node nonode@nohost
+2015-06-24 12:37:41.958 [info] <0.7.0> Application crypto started on node nonode@nohost
+2015-06-24 12:37:42.018 [info] <0.7.0> Application mongodb started on node nonode@nohost
+2015-06-24 12:37:42.188 [info] <0.7.0> Application emcp started on node nonode@nohost
+2015-06-24 12:37:52.193 [error] <0.79.0> gen_server mc_w_manager terminated with reason: call to undefined function lager:info/1 from mc_w_manager:handle_info/2 line 106
+2015-06-24 12:37:52.193 [error] <0.79.0> CRASH REPORT Process mc_w_manager with 0 neighbours exited with reason: call to undefined function lager:info("recycle: no need~n") in gen_server:terminate/7 line 804
+2015-06-24 12:37:52.193 [error] <0.77.0> Supervisor emcp_sup had child mc_w_manager started with mc_w_manager:start_link(10) at <0.79.0> exit with reason call to undefined function lager:info("recycle: no need~n") in context child_terminated
+2015-06-24 12:38:02.211 [error] <0.103.0> gen_server mc_w_manager terminated with reason: call to undefined function lager:info/2 from mc_w_manager:handle_info/2 line 97
+2015-06-24 12:38:02.211 [error] <0.103.0> CRASH REPORT Process mc_w_manager with 0 neighbours exited with reason: call to undefined function lager:info("recycle: kill ~p workers~n", [5]) in gen_server:terminate/7 line 804
+2015-06-24 12:38:02.211 [error] <0.77.0> Supervisor emcp_sup had child mc_w_manager started with mc_w_manager:start_link(10) at <0.103.0> exit with reason call to undefined function lager:info("recycle: kill ~p workers~n", [5]) in context child_terminated
+2015-06-24 12:39:32.149 [info] <0.7.0> Application lager started on node nonode@nohost
+2015-06-24 12:44:18.589 [info] <0.7.0> Application lager started on node nonode@nohost
+2015-06-24 12:54:46.669 [info] <0.7.0> Application lager started on node nonode@nohost
+2015-06-24 12:57:53.741 [info] <0.73.0> asdf
+2015-06-24 12:58:35.225 [info] <0.7.0> Application lager started on node nonode@nohost
+2015-06-24 12:58:35.238 [info] <0.7.0> Application bson started on node nonode@nohost
+2015-06-24 12:58:35.250 [info] <0.7.0> Application crypto started on node nonode@nohost
+2015-06-24 12:58:35.319 [info] <0.7.0> Application mongodb started on node nonode@nohost
+2015-06-24 12:58:35.496 [info] <0.7.0> Application emcp started on node nonode@nohost
+2015-06-24 12:58:45.498 [info] <0.79.0>@mc_w_manager:handle_info:106 recycle: no need~n
+2015-06-24 12:58:55.499 [info] <0.79.0>@mc_w_manager:handle_info:106 recycle: no need~n
+2015-06-24 12:59:05.507 [info] <0.79.0>@mc_w_manager:handle_info:106 recycle: no need~n
+2015-06-24 12:59:15.513 [info] <0.79.0>@mc_w_manager:handle_info:106 recycle: no need~n
+2015-06-24 12:59:25.515 [info] <0.79.0>@mc_w_manager:handle_info:106 recycle: no need~n
+2015-06-24 12:59:35.519 [info] <0.79.0>@mc_w_manager:handle_info:106 recycle: no need~n
+2015-06-24 12:59:45.520 [info] <0.79.0>@mc_w_manager:handle_info:106 recycle: no need~n
+2015-06-24 14:24:07.006 [info] <0.7.0> Application lager started on node nonode@nohost
+2015-06-24 14:24:07.008 [info] <0.7.0> Application bson started on node nonode@nohost
+2015-06-24 14:24:07.040 [info] <0.7.0> Application crypto started on node nonode@nohost
+2015-06-24 14:24:07.098 [info] <0.7.0> Application mongodb started on node nonode@nohost
+2015-06-24 14:24:07.322 [info] <0.7.0> Application emcp started on node nonode@nohost
+2015-06-24 14:24:17.330 [info] <0.84.0>@mc_w_manager:handle_info:106 mc_w_manager recycle: no need.
+2015-06-24 14:24:27.331 [info] <0.84.0>@mc_w_manager:handle_info:106 mc_w_manager recycle: no need.
+2015-06-24 14:24:37.335 [info] <0.84.0>@mc_w_manager:handle_info:106 mc_w_manager recycle: no need.
+2015-06-24 14:24:47.339 [info] <0.84.0>@mc_w_manager:handle_info:106 mc_w_manager recycle: no need.
+2015-06-24 14:24:57.347 [info] <0.84.0>@mc_w_manager:handle_info:106 mc_w_manager recycle: no need.
+2015-06-24 14:25:07.356 [info] <0.84.0>@mc_w_manager:handle_info:106 mc_w_manager recycle: no need.
+2015-06-24 14:25:17.357 [info] <0.84.0>@mc_w_manager:handle_info:106 mc_w_manager recycle: no need.
+2015-06-24 14:25:27.362 [info] <0.84.0>@mc_w_manager:handle_info:106 mc_w_manager recycle: no need.
+2015-06-24 14:25:37.363 [info] <0.84.0>@mc_w_manager:handle_info:106 mc_w_manager recycle: no need.
+2015-06-24 14:25:47.365 [info] <0.84.0>@mc_w_manager:handle_info:106 mc_w_manager recycle: no need.
+2015-06-24 14:25:57.369 [info] <0.84.0>@mc_w_manager:handle_info:106 mc_w_manager recycle: no need.
+2015-06-24 14:26:07.372 [info] <0.84.0>@mc_w_manager:handle_info:106 mc_w_manager recycle: no need.
+2015-06-24 14:26:17.374 [info] <0.84.0>@mc_w_manager:handle_info:106 mc_w_manager recycle: no need.
+2015-06-24 14:26:27.376 [info] <0.84.0>@mc_w_manager:handle_info:106 mc_w_manager recycle: no need.
+2015-06-24 14:26:37.381 [info] <0.84.0>@mc_w_manager:handle_info:106 mc_w_manager recycle: no need.
+2015-06-24 14:26:47.388 [info] <0.84.0>@mc_w_manager:handle_info:106 mc_w_manager recycle: no need.
+2015-06-24 14:26:57.398 [info] <0.84.0>@mc_w_manager:handle_info:106 mc_w_manager recycle: no need.
+2015-06-24 14:27:07.400 [info] <0.84.0>@mc_w_manager:handle_info:106 mc_w_manager recycle: no need.
+2015-06-24 14:27:17.401 [info] <0.84.0>@mc_w_manager:handle_info:97 mc_w_manager recycle: kill 95 workers.
+2015-06-24 14:27:17.405 [error] <0.83.0> Supervisor mc_w_sup had child mc_w started with {mc_w,start_link,undefined} at <0.85.0> exit with reason killed in context child_terminated
+2015-06-24 14:27:17.406 [error] <0.83.0> Supervisor mc_w_sup had child mc_w started with {mc_w,start_link,undefined} at <0.101.0> exit with reason killed in context child_terminated
+2015-06-24 14:27:17.408 [error] <0.83.0> Supervisor mc_w_sup had child mc_w started with {mc_w,start_link,undefined} at <0.89.0> exit with reason killed in context child_terminated
+2015-06-24 14:27:17.408 [error] <0.83.0> Supervisor mc_w_sup had child mc_w started with {mc_w,start_link,undefined} at <0.91.0> exit with reason killed in context child_terminated
+2015-06-24 14:27:17.409 [error] <0.83.0> Supervisor mc_w_sup had child mc_w started with {mc_w,start_link,undefined} at <0.93.0> exit with reason killed in context child_terminated
+2015-06-24 14:27:17.409 [error] <0.83.0> Supervisor mc_w_sup had child mc_w started with {mc_w,start_link,undefined} at <0.95.0> exit with reason killed in context child_terminated
+2015-06-24 14:27:17.410 [error] <0.83.0> Supervisor mc_w_sup had child mc_w started with {mc_w,start_link,undefined} at <0.97.0> exit with reason killed in context child_terminated
+2015-06-24 14:27:17.412 [error] <0.83.0> Supervisor mc_w_sup had child mc_w started with {mc_w,start_link,undefined} at <0.99.0> exit with reason killed in context child_terminated
+2015-06-24 14:27:17.412 [error] <0.83.0> Supervisor mc_w_sup had child mc_w started with {mc_w,start_link,undefined} at <0.103.0> exit with reason killed in context child_terminated
+2015-06-24 14:27:17.413 [error] <0.83.0> Supervisor mc_w_sup had child mc_w started with {mc_w,start_link,undefined} at <0.105.0> exit with reason killed in context child_terminated
+2015-06-24 14:27:17.415 [error] <0.83.0> Supervisor mc_w_sup had child mc_w started with {mc_w,start_link,undefined} at <0.320.0> exit with reason killed in context child_terminated
+2015-06-24 14:27:17.416 [error] <0.83.0> Supervisor mc_w_sup had child mc_w started with {mc_w,start_link,undefined} at <0.326.0> exit with reason killed in context child_terminated
+2015-06-24 14:27:17.416 [error] <0.83.0> Supervisor mc_w_sup had child mc_w started with {mc_w,start_link,undefined} at <0.334.0> exit with reason killed in context child_terminated
+2015-06-24 14:27:17.416 [error] <0.83.0> Supervisor mc_w_sup had child mc_w started with {mc_w,start_link,undefined} at <0.339.0> exit with reason killed in context child_terminated
+2015-06-24 14:27:17.421 [error] <0.83.0> Supervisor mc_w_sup had child mc_w started with {mc_w,start_link,undefined} at <0.342.0> exit with reason killed in context child_terminated
+2015-06-24 14:27:17.422 [error] <0.83.0> Supervisor mc_w_sup had child mc_w started with {mc_w,start_link,undefined} at <0.345.0> exit with reason killed in context child_terminated
+2015-06-24 14:27:17.422 [error] <0.83.0> Supervisor mc_w_sup had child mc_w started with {mc_w,start_link,undefined} at <0.348.0> exit with reason killed in context child_terminated
+2015-06-24 14:27:17.424 [error] <0.83.0> Supervisor mc_w_sup had child mc_w started with {mc_w,start_link,undefined} at <0.351.0> exit with reason killed in context child_terminated
+2015-06-24 14:27:17.425 [error] <0.83.0> Supervisor mc_w_sup had child mc_w started with {mc_w,start_link,undefined} at <0.354.0> exit with reason killed in context child_terminated
+2015-06-24 14:27:17.425 [error] <0.83.0> Supervisor mc_w_sup had child mc_w started with {mc_w,start_link,undefined} at <0.357.0> exit with reason killed in context child_terminated
+2015-06-24 14:27:17.425 [error] <0.83.0> Supervisor mc_w_sup had child mc_w started with {mc_w,start_link,undefined} at <0.360.0> exit with reason killed in context child_terminated
+2015-06-24 14:27:17.432 [error] <0.83.0> Supervisor mc_w_sup had child mc_w started with {mc_w,start_link,undefined} at <0.363.0> exit with reason killed in context child_terminated
+2015-06-24 14:27:17.432 [error] <0.83.0> Supervisor mc_w_sup had child mc_w started with {mc_w,start_link,undefined} at <0.366.0> exit with reason killed in context child_terminated
+2015-06-24 14:27:17.434 [error] <0.83.0> Supervisor mc_w_sup had child mc_w started with {mc_w,start_link,undefined} at <0.369.0> exit with reason killed in context child_terminated
+2015-06-24 14:27:17.434 [error] <0.83.0> Supervisor mc_w_sup had child mc_w started with {mc_w,start_link,undefined} at <0.372.0> exit with reason killed in context child_terminated
+2015-06-24 14:27:17.434 [error] <0.83.0> Supervisor mc_w_sup had child mc_w started with {mc_w,start_link,undefined} at <0.375.0> exit with reason killed in context child_terminated
+2015-06-24 14:27:17.438 [error] <0.83.0> Supervisor mc_w_sup had child mc_w started with {mc_w,start_link,undefined} at <0.378.0> exit with reason killed in context child_terminated
+2015-06-24 14:27:17.479 [error] <0.83.0> Supervisor mc_w_sup had child mc_w started with {mc_w,start_link,undefined} at <0.381.0> exit with reason killed in context child_terminated
+2015-06-24 14:27:17.488 [error] <0.83.0> Supervisor mc_w_sup had child mc_w started with {mc_w,start_link,undefined} at <0.384.0> exit with reason killed in context child_terminated
+2015-06-24 14:27:17.488 [error] <0.83.0> Supervisor mc_w_sup had child mc_w started with {mc_w,start_link,undefined} at <0.387.0> exit with reason killed in context child_terminated
+2015-06-24 14:27:17.488 [error] <0.83.0> Supervisor mc_w_sup had child mc_w started with {mc_w,start_link,undefined} at <0.390.0> exit with reason killed in context child_terminated
+2015-06-24 14:27:17.488 [error] <0.83.0> Supervisor mc_w_sup had child mc_w started with {mc_w,start_link,undefined} at <0.393.0> exit with reason killed in context child_terminated
+2015-06-24 14:27:17.488 [error] <0.83.0> Supervisor mc_w_sup had child mc_w started with {mc_w,start_link,undefined} at <0.396.0> exit with reason killed in context child_terminated
+2015-06-24 14:27:17.489 [error] <0.83.0> Supervisor mc_w_sup had child mc_w started with {mc_w,start_link,undefined} at <0.399.0> exit with reason killed in context child_terminated
+2015-06-24 14:27:17.489 [error] <0.83.0> Supervisor mc_w_sup had child mc_w started with {mc_w,start_link,undefined} at <0.402.0> exit with reason killed in context child_terminated
+2015-06-24 14:27:17.490 [error] <0.83.0> Supervisor mc_w_sup had child mc_w started with {mc_w,start_link,undefined} at <0.405.0> exit with reason killed in context child_terminated
+2015-06-24 14:27:17.490 [error] <0.83.0> Supervisor mc_w_sup had child mc_w started with {mc_w,start_link,undefined} at <0.408.0> exit with reason killed in context child_terminated
+2015-06-24 14:27:17.490 [error] <0.83.0> Supervisor mc_w_sup had child mc_w started with {mc_w,start_link,undefined} at <0.411.0> exit with reason killed in context child_terminated
+2015-06-24 14:27:17.490 [error] <0.83.0> Supervisor mc_w_sup had child mc_w started with {mc_w,start_link,undefined} at <0.414.0> exit with reason killed in context child_terminated
+2015-06-24 14:27:17.491 [error] <0.83.0> Supervisor mc_w_sup had child mc_w started with {mc_w,start_link,undefined} at <0.417.0> exit with reason killed in context child_terminated
+2015-06-24 14:27:17.491 [error] <0.83.0> Supervisor mc_w_sup had child mc_w started with {mc_w,start_link,undefined} at <0.420.0> exit with reason killed in context child_terminated
+2015-06-24 14:27:17.492 [error] <0.83.0> Supervisor mc_w_sup had child mc_w started with {mc_w,start_link,undefined} at <0.423.0> exit with reason killed in context child_terminated
+2015-06-24 14:27:17.492 [error] <0.83.0> Supervisor mc_w_sup had child mc_w started with {mc_w,start_link,undefined} at <0.426.0> exit with reason killed in context child_terminated
+2015-06-24 14:27:17.492 [error] <0.83.0> Supervisor mc_w_sup had child mc_w started with {mc_w,start_link,undefined} at <0.429.0> exit with reason killed in context child_terminated
+2015-06-24 14:27:17.493 [error] <0.83.0> Supervisor mc_w_sup had child mc_w started with {mc_w,start_link,undefined} at <0.432.0> exit with reason killed in context child_terminated
+2015-06-24 14:27:17.493 [error] <0.83.0> Supervisor mc_w_sup had child mc_w started with {mc_w,start_link,undefined} at <0.435.0> exit with reason killed in context child_terminated
+2015-06-24 14:27:17.493 [error] <0.83.0> Supervisor mc_w_sup had child mc_w started with {mc_w,start_link,undefined} at <0.438.0> exit with reason killed in context child_terminated
+2015-06-24 14:27:17.494 [error] <0.83.0> Supervisor mc_w_sup had child mc_w started with {mc_w,start_link,undefined} at <0.441.0> exit with reason killed in context child_terminated
+2015-06-24 14:27:17.494 [error] <0.83.0> Supervisor mc_w_sup had child mc_w started with {mc_w,start_link,undefined} at <0.444.0> exit with reason killed in context child_terminated
+2015-06-24 14:27:17.500 [error] <0.83.0> Supervisor mc_w_sup had child mc_w started with {mc_w,start_link,undefined} at <0.447.0> exit with reason killed in context child_terminated
+2015-06-24 14:27:17.501 [error] <0.83.0> Supervisor mc_w_sup had child mc_w started with {mc_w,start_link,undefined} at <0.450.0> exit with reason killed in context child_terminated
+2015-06-24 14:27:17.501 [error] <0.83.0> Supervisor mc_w_sup had child mc_w started with {mc_w,start_link,undefined} at <0.453.0> exit with reason killed in context child_terminated
+2015-06-24 14:27:17.503 [error] <0.83.0> Supervisor mc_w_sup had child mc_w started with {mc_w,start_link,undefined} at <0.456.0> exit with reason killed in context child_terminated
+2015-06-24 14:27:17.504 [error] <0.83.0> Supervisor mc_w_sup had child mc_w started with {mc_w,start_link,undefined} at <0.459.0> exit with reason killed in context child_terminated
+2015-06-24 14:27:17.504 [error] <0.83.0> Supervisor mc_w_sup had child mc_w started with {mc_w,start_link,undefined} at <0.462.0> exit with reason killed in context child_terminated
+2015-06-24 14:27:17.504 [error] <0.83.0> Supervisor mc_w_sup had child mc_w started with {mc_w,start_link,undefined} at <0.465.0> exit with reason killed in context child_terminated
+2015-06-24 14:27:17.504 [error] <0.83.0> Supervisor mc_w_sup had child mc_w started with {mc_w,start_link,undefined} at <0.468.0> exit with reason killed in context child_terminated
+2015-06-24 14:27:17.563 [error] <0.83.0> Supervisor mc_w_sup had child mc_w started with {mc_w,start_link,undefined} at <0.471.0> exit with reason killed in context child_terminated
+2015-06-24 14:27:17.563 [error] <0.83.0> Supervisor mc_w_sup had child mc_w started with {mc_w,start_link,undefined} at <0.474.0> exit with reason killed in context child_terminated
+2015-06-24 14:27:17.563 [error] <0.83.0> Supervisor mc_w_sup had child mc_w started with {mc_w,start_link,undefined} at <0.477.0> exit with reason killed in context child_terminated
+2015-06-24 14:27:17.563 [error] <0.83.0> Supervisor mc_w_sup had child mc_w started with {mc_w,start_link,undefined} at <0.480.0> exit with reason killed in context child_terminated
+2015-06-24 14:27:17.563 [error] <0.83.0> Supervisor mc_w_sup had child mc_w started with {mc_w,start_link,undefined} at <0.483.0> exit with reason killed in context child_terminated
+2015-06-24 14:27:17.564 [error] <0.83.0> Supervisor mc_w_sup had child mc_w started with {mc_w,start_link,undefined} at <0.486.0> exit with reason killed in context child_terminated
+2015-06-24 14:27:17.565 [error] <0.83.0> Supervisor mc_w_sup had child mc_w started with {mc_w,start_link,undefined} at <0.489.0> exit with reason killed in context child_terminated
+2015-06-24 14:27:17.565 [error] <0.83.0> Supervisor mc_w_sup had child mc_w started with {mc_w,start_link,undefined} at <0.492.0> exit with reason killed in context child_terminated
+2015-06-24 14:27:17.566 [error] <0.83.0> Supervisor mc_w_sup had child mc_w started with {mc_w,start_link,undefined} at <0.495.0> exit with reason killed in context child_terminated
+2015-06-24 14:27:17.566 [error] <0.83.0> Supervisor mc_w_sup had child mc_w started with {mc_w,start_link,undefined} at <0.498.0> exit with reason killed in context child_terminated
+2015-06-24 14:27:17.566 [error] <0.83.0> Supervisor mc_w_sup had child mc_w started with {mc_w,start_link,undefined} at <0.501.0> exit with reason killed in context child_terminated
+2015-06-24 14:27:17.573 [error] <0.83.0> Supervisor mc_w_sup had child mc_w started with {mc_w,start_link,undefined} at <0.504.0> exit with reason killed in context child_terminated
+2015-06-24 14:27:17.574 [error] <0.83.0> Supervisor mc_w_sup had child mc_w started with {mc_w,start_link,undefined} at <0.507.0> exit with reason killed in context child_terminated
+2015-06-24 14:27:17.574 [error] <0.83.0> Supervisor mc_w_sup had child mc_w started with {mc_w,start_link,undefined} at <0.510.0> exit with reason killed in context child_terminated
+2015-06-24 14:27:17.574 [error] <0.83.0> Supervisor mc_w_sup had child mc_w started with {mc_w,start_link,undefined} at <0.513.0> exit with reason killed in context child_terminated
+2015-06-24 14:27:17.574 [error] <0.83.0> Supervisor mc_w_sup had child mc_w started with {mc_w,start_link,undefined} at <0.516.0> exit with reason killed in context child_terminated
+2015-06-24 14:27:17.575 [error] <0.83.0> Supervisor mc_w_sup had child mc_w started with {mc_w,start_link,undefined} at <0.519.0> exit with reason killed in context child_terminated
+2015-06-24 14:27:17.579 [error] <0.83.0> Supervisor mc_w_sup had child mc_w started with {mc_w,start_link,undefined} at <0.522.0> exit with reason killed in context child_terminated
+2015-06-24 14:27:17.579 [error] <0.83.0> Supervisor mc_w_sup had child mc_w started with {mc_w,start_link,undefined} at <0.525.0> exit with reason killed in context child_terminated
+2015-06-24 14:27:17.579 [error] <0.83.0> Supervisor mc_w_sup had child mc_w started with {mc_w,start_link,undefined} at <0.528.0> exit with reason killed in context child_terminated
+2015-06-24 14:27:17.580 [error] <0.83.0> Supervisor mc_w_sup had child mc_w started with {mc_w,start_link,undefined} at <0.531.0> exit with reason killed in context child_terminated
+2015-06-24 14:27:17.580 [error] <0.83.0> Supervisor mc_w_sup had child mc_w started with {mc_w,start_link,undefined} at <0.534.0> exit with reason killed in context child_terminated
+2015-06-24 14:27:17.580 [error] <0.83.0> Supervisor mc_w_sup had child mc_w started with {mc_w,start_link,undefined} at <0.537.0> exit with reason killed in context child_terminated
+2015-06-24 14:27:17.581 [error] <0.83.0> Supervisor mc_w_sup had child mc_w started with {mc_w,start_link,undefined} at <0.540.0> exit with reason killed in context child_terminated
+2015-06-24 14:27:17.581 [error] <0.83.0> Supervisor mc_w_sup had child mc_w started with {mc_w,start_link,undefined} at <0.543.0> exit with reason killed in context child_terminated
+2015-06-24 14:27:17.581 [error] <0.83.0> Supervisor mc_w_sup had child mc_w started with {mc_w,start_link,undefined} at <0.546.0> exit with reason killed in context child_terminated
+2015-06-24 14:27:17.583 [error] <0.83.0> Supervisor mc_w_sup had child mc_w started with {mc_w,start_link,undefined} at <0.549.0> exit with reason killed in context child_terminated
+2015-06-24 14:27:17.584 [error] <0.83.0> Supervisor mc_w_sup had child mc_w started with {mc_w,start_link,undefined} at <0.552.0> exit with reason killed in context child_terminated
+2015-06-24 14:27:27.407 [info] <0.84.0>@mc_w_manager:handle_info:111 mc_w_manager recycle: add 5 workers.
+2015-06-24 14:27:37.415 [info] <0.84.0>@mc_w_manager:handle_info:106 mc_w_manager recycle: no need.
+2015-06-24 14:27:47.418 [info] <0.84.0>@mc_w_manager:handle_info:106 mc_w_manager recycle: no need.
+2015-06-24 14:27:57.427 [info] <0.84.0>@mc_w_manager:handle_info:106 mc_w_manager recycle: no need.
+2015-06-24 14:28:07.435 [info] <0.84.0>@mc_w_manager:handle_info:106 mc_w_manager recycle: no need.
+2015-06-24 14:28:17.439 [info] <0.84.0>@mc_w_manager:handle_info:106 mc_w_manager recycle: no need.
+2015-06-24 14:28:27.440 [info] <0.84.0>@mc_w_manager:handle_info:106 mc_w_manager recycle: no need.
+2015-06-24 14:28:37.444 [info] <0.84.0>@mc_w_manager:handle_info:106 mc_w_manager recycle: no need.
+2015-06-24 14:28:47.453 [info] <0.84.0>@mc_w_manager:handle_info:106 mc_w_manager recycle: no need.
+2015-06-24 14:28:57.462 [info] <0.84.0>@mc_w_manager:handle_info:106 mc_w_manager recycle: no need.
+2015-06-24 14:29:07.468 [info] <0.84.0>@mc_w_manager:handle_info:106 mc_w_manager recycle: no need.
+2015-06-24 14:29:17.476 [info] <0.84.0>@mc_w_manager:handle_info:106 mc_w_manager recycle: no need.
+2015-06-24 14:29:27.480 [info] <0.84.0>@mc_w_manager:handle_info:106 mc_w_manager recycle: no need.
+2015-06-24 14:29:37.484 [info] <0.84.0>@mc_w_manager:handle_info:106 mc_w_manager recycle: no need.
+2015-06-24 14:29:47.485 [info] <0.84.0>@mc_w_manager:handle_info:106 mc_w_manager recycle: no need.
+2015-06-24 14:29:57.487 [info] <0.84.0>@mc_w_manager:handle_info:106 mc_w_manager recycle: no need.
+2015-06-24 14:30:07.492 [info] <0.84.0>@mc_w_manager:handle_info:106 mc_w_manager recycle: no need.
+2015-06-24 14:30:17.500 [info] <0.84.0>@mc_w_manager:handle_info:106 mc_w_manager recycle: no need.
+2015-06-24 14:30:27.507 [info] <0.84.0>@mc_w_manager:handle_info:106 mc_w_manager recycle: no need.
+2015-06-24 14:30:37.515 [info] <0.84.0>@mc_w_manager:handle_info:106 mc_w_manager recycle: no need.
+2015-06-24 14:30:47.518 [info] <0.84.0>@mc_w_manager:handle_info:106 mc_w_manager recycle: no need.
+2015-06-24 14:30:57.521 [info] <0.84.0>@mc_w_manager:handle_info:106 mc_w_manager recycle: no need.
+2015-06-24 14:31:07.528 [info] <0.84.0>@mc_w_manager:handle_info:106 mc_w_manager recycle: no need.
+2015-06-24 14:31:17.537 [info] <0.84.0>@mc_w_manager:handle_info:106 mc_w_manager recycle: no need.
+2015-06-24 14:31:27.538 [info] <0.84.0>@mc_w_manager:handle_info:106 mc_w_manager recycle: no need.
+2015-06-24 14:31:37.545 [info] <0.84.0>@mc_w_manager:handle_info:106 mc_w_manager recycle: no need.
+2015-06-24 14:31:47.550 [info] <0.84.0>@mc_w_manager:handle_info:106 mc_w_manager recycle: no need.
+2015-06-24 14:31:57.556 [info] <0.84.0>@mc_w_manager:handle_info:106 mc_w_manager recycle: no need.
+2015-06-24 14:32:07.558 [info] <0.84.0>@mc_w_manager:handle_info:106 mc_w_manager recycle: no need.
+2015-06-24 14:32:17.563 [info] <0.84.0>@mc_w_manager:handle_info:106 mc_w_manager recycle: no need.
+2015-06-24 14:32:27.569 [info] <0.84.0>@mc_w_manager:handle_info:106 mc_w_manager recycle: no need.
+2015-06-24 14:32:37.577 [info] <0.84.0>@mc_w_manager:handle_info:106 mc_w_manager recycle: no need.
+2015-06-24 14:32:47.585 [info] <0.84.0>@mc_w_manager:handle_info:106 mc_w_manager recycle: no need.
+2015-06-24 14:32:57.592 [info] <0.84.0>@mc_w_manager:handle_info:106 mc_w_manager recycle: no need.
+2015-06-24 14:33:07.599 [info] <0.84.0>@mc_w_manager:handle_info:106 mc_w_manager recycle: no need.
+2015-06-24 14:33:17.607 [info] <0.84.0>@mc_w_manager:handle_info:106 mc_w_manager recycle: no need.
+2015-06-24 14:33:27.615 [info] <0.84.0>@mc_w_manager:handle_info:106 mc_w_manager recycle: no need.
+2015-06-24 14:33:37.623 [info] <0.84.0>@mc_w_manager:handle_info:106 mc_w_manager recycle: no need.
+2015-06-24 14:33:47.625 [info] <0.84.0>@mc_w_manager:handle_info:106 mc_w_manager recycle: no need.
+2015-06-24 14:33:57.629 [info] <0.84.0>@mc_w_manager:handle_info:97 mc_w_manager recycle: kill 5 workers.
+2015-06-24 14:33:57.629 [warning] <0.6.0> lager_error_logger_h dropped 9 messages in the last second that exceeded the limit of 50 messages/sec
+2015-06-24 14:33:57.629 [error] <0.83.0> Supervisor mc_w_sup had child mc_w started with {mc_w,start_link,undefined} at <0.585.0> exit with reason killed in context child_terminated
+2015-06-24 14:33:57.629 [error] <0.83.0> Supervisor mc_w_sup had child mc_w started with {mc_w,start_link,undefined} at <0.588.0> exit with reason killed in context child_terminated
+2015-06-24 14:33:57.629 [error] <0.83.0> Supervisor mc_w_sup had child mc_w started with {mc_w,start_link,undefined} at <0.591.0> exit with reason killed in context child_terminated
+2015-06-24 14:33:57.629 [error] <0.83.0> Supervisor mc_w_sup had child mc_w started with {mc_w,start_link,undefined} at <0.594.0> exit with reason killed in context child_terminated
+2015-06-24 14:33:57.629 [error] <0.83.0> Supervisor mc_w_sup had child mc_w started with {mc_w,start_link,undefined} at <0.597.0> exit with reason killed in context child_terminated
+2015-06-24 14:34:07.635 [info] <0.84.0>@mc_w_manager:handle_info:111 mc_w_manager recycle: add 4 workers.
+2015-06-24 14:34:17.647 [info] <0.84.0>@mc_w_manager:handle_info:106 mc_w_manager recycle: no need.
+2015-06-24 14:34:27.656 [info] <0.84.0>@mc_w_manager:handle_info:106 mc_w_manager recycle: no need.
+2015-06-24 14:34:37.663 [info] <0.84.0>@mc_w_manager:handle_info:106 mc_w_manager recycle: no need.
+2015-06-24 14:34:47.671 [info] <0.84.0>@mc_w_manager:handle_info:106 mc_w_manager recycle: no need.
+2015-06-24 14:34:57.672 [info] <0.84.0>@mc_w_manager:handle_info:106 mc_w_manager recycle: no need.
+2015-06-24 14:35:07.676 [info] <0.84.0>@mc_w_manager:handle_info:106 mc_w_manager recycle: no need.
+2015-06-24 14:35:17.681 [info] <0.84.0>@mc_w_manager:handle_info:106 mc_w_manager recycle: no need.
+2015-06-24 14:35:27.686 [info] <0.84.0>@mc_w_manager:handle_info:106 mc_w_manager recycle: no need.
+2015-06-24 14:35:37.691 [info] <0.84.0>@mc_w_manager:handle_info:106 mc_w_manager recycle: no need.
+2015-06-24 14:35:47.699 [info] <0.84.0>@mc_w_manager:handle_info:106 mc_w_manager recycle: no need.
+2015-06-24 14:35:57.704 [info] <0.84.0>@mc_w_manager:handle_info:106 mc_w_manager recycle: no need.
+2015-06-24 14:36:07.705 [info] <0.84.0>@mc_w_manager:handle_info:106 mc_w_manager recycle: no need.
+2015-06-24 14:36:17.708 [info] <0.84.0>@mc_w_manager:handle_info:106 mc_w_manager recycle: no need.
+2015-06-24 14:36:27.709 [info] <0.84.0>@mc_w_manager:handle_info:106 mc_w_manager recycle: no need.
+2015-06-24 14:37:47.263 [info] <0.7.0> Application lager started on node nonode@nohost
+2015-06-24 14:37:47.266 [info] <0.7.0> Application bson started on node nonode@nohost
+2015-06-24 14:37:47.285 [info] <0.7.0> Application crypto started on node nonode@nohost
+2015-06-24 14:37:47.355 [info] <0.7.0> Application mongodb started on node nonode@nohost
+2015-06-24 14:37:47.523 [info] <0.7.0> Application emcp started on node nonode@nohost
+2015-06-24 14:37:47.523 [info] <0.84.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 14:37:47.527 [info] <0.84.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 14:37:47.529 [info] <0.84.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 14:37:47.530 [info] <0.84.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 14:37:47.532 [info] <0.84.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 14:37:47.533 [info] <0.84.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 14:37:47.535 [info] <0.84.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 14:37:47.537 [info] <0.84.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 14:37:47.538 [info] <0.84.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 14:37:47.540 [info] <0.84.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 14:37:47.554 [info] <0.84.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 14:37:47.559 [info] <0.84.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 14:37:47.560 [info] <0.84.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 14:37:47.561 [info] <0.84.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 14:37:47.567 [info] <0.84.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 14:37:47.568 [info] <0.84.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 14:37:47.569 [info] <0.84.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 14:37:47.572 [info] <0.84.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 14:37:47.573 [info] <0.84.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 14:37:47.575 [info] <0.84.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 14:37:47.575 [info] <0.84.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 14:37:47.577 [info] <0.84.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 14:37:47.579 [info] <0.84.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 14:37:47.581 [info] <0.84.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 14:37:47.588 [info] <0.84.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 14:37:47.591 [info] <0.84.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 14:37:47.592 [info] <0.84.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 14:37:47.596 [info] <0.84.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 14:37:47.597 [info] <0.84.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 14:37:47.598 [info] <0.84.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 14:37:47.599 [info] <0.84.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 14:37:47.604 [info] <0.84.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 14:37:47.605 [info] <0.84.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 14:37:47.606 [info] <0.84.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 14:37:47.607 [info] <0.84.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 14:37:47.609 [info] <0.84.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 14:37:47.610 [info] <0.84.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 14:37:47.612 [info] <0.84.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 14:37:47.619 [info] <0.84.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 14:37:47.623 [info] <0.84.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 14:37:47.624 [info] <0.84.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 14:37:47.625 [info] <0.84.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 14:37:47.626 [info] <0.84.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 14:37:47.627 [info] <0.84.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 14:37:47.631 [info] <0.84.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 14:37:47.632 [info] <0.84.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 14:37:47.633 [info] <0.84.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 14:37:47.635 [info] <0.84.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 14:37:47.636 [info] <0.84.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 14:37:47.637 [info] <0.84.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 14:37:47.640 [info] <0.84.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 14:37:47.641 [info] <0.84.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 14:37:47.643 [info] <0.84.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 14:37:47.649 [info] <0.84.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 14:37:47.656 [info] <0.84.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 14:37:47.657 [info] <0.84.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 14:37:47.658 [info] <0.84.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 14:37:47.659 [info] <0.84.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 14:37:47.660 [info] <0.84.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 14:37:47.661 [info] <0.84.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 14:37:47.662 [info] <0.84.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 14:37:47.665 [info] <0.84.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 14:37:47.666 [info] <0.84.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 14:37:47.671 [info] <0.84.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 14:37:47.673 [info] <0.84.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 14:37:47.676 [info] <0.84.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 14:37:47.682 [info] <0.84.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 14:37:47.685 [info] <0.84.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 14:37:47.689 [info] <0.84.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 14:37:47.693 [info] <0.84.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 14:37:47.699 [info] <0.84.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 14:37:47.700 [info] <0.84.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 14:37:47.701 [info] <0.84.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 14:37:47.702 [info] <0.84.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 14:37:47.704 [info] <0.84.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 14:37:47.706 [info] <0.84.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 14:37:47.712 [info] <0.84.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 14:37:47.716 [info] <0.84.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 14:37:47.717 [info] <0.84.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 14:37:47.720 [info] <0.84.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 14:37:47.721 [info] <0.84.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 14:37:47.723 [info] <0.84.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 14:37:47.727 [info] <0.84.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 14:37:47.728 [info] <0.84.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 14:37:47.729 [info] <0.84.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 14:37:47.734 [info] <0.84.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 14:37:47.735 [info] <0.84.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 14:37:47.736 [info] <0.84.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 14:37:47.737 [info] <0.84.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 14:37:47.738 [info] <0.84.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 14:37:57.524 [info] <0.84.0>@mc_w_manager:handle_info:98 mc_w_manager recycle: kill 95 workers.
+2015-06-24 14:38:07.537 [info] <0.84.0>@mc_w_manager:handle_info:112 mc_w_manager recycle: add 5 workers.
+2015-06-24 14:38:17.543 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 14:38:27.549 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 14:38:37.556 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 14:38:47.561 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 14:38:57.570 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 14:39:07.571 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 14:39:17.574 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 14:39:27.579 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 14:39:37.587 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 14:39:47.595 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 14:39:57.603 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 14:40:07.609 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 14:40:17.610 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 14:40:27.612 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 14:40:37.620 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 14:40:47.621 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 14:40:57.625 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 14:41:07.633 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 14:41:17.640 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 14:41:27.641 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 14:41:37.647 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 14:41:47.653 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 14:41:57.661 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 14:42:07.663 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 14:42:17.664 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 14:42:27.673 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 14:42:37.678 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 14:42:47.680 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 14:42:57.688 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 14:43:07.696 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 14:43:17.700 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 14:43:27.702 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 14:43:37.707 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 14:43:47.715 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 14:43:57.723 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 14:44:07.727 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 14:44:17.735 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 14:44:27.744 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 14:44:37.749 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 14:44:47.755 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 14:44:57.762 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 14:45:07.765 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 14:45:17.766 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 14:45:27.768 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 14:45:37.772 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 14:45:47.778 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 14:45:57.787 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 14:46:07.788 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 14:46:17.795 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 14:46:27.803 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 14:46:37.805 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 14:46:47.809 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 14:46:57.811 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 14:47:07.815 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 14:47:17.816 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 14:47:27.818 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 14:47:37.824 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 14:47:47.831 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 14:47:57.839 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 14:48:07.841 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 14:48:17.842 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 14:48:27.849 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 14:48:37.852 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 14:48:47.854 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 14:48:57.856 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 14:49:07.862 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 14:49:17.870 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 14:49:27.875 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 14:49:37.883 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 14:49:47.890 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 14:49:57.893 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 14:50:07.897 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 14:50:17.900 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 14:50:27.907 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 14:50:37.911 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 14:50:47.919 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 14:50:57.926 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 14:51:07.929 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 14:51:17.932 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 14:51:27.938 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 14:51:37.942 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 14:51:47.946 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 14:51:57.947 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 14:52:07.953 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 14:52:17.958 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 14:52:27.961 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 14:52:37.967 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 14:52:47.976 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 14:52:57.981 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 14:53:07.986 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 14:53:17.988 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 14:53:27.989 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 14:53:37.991 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 14:53:47.997 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 14:53:58.004 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 14:54:08.012 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 14:54:18.020 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 14:54:28.023 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 14:54:38.028 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 14:54:48.031 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 14:54:58.035 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 14:55:08.041 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 14:55:18.045 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 14:55:28.054 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 14:55:38.058 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 14:55:48.065 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 14:55:58.071 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 14:56:08.072 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 14:56:18.079 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 14:56:28.086 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 14:56:38.087 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 14:56:48.093 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 14:56:58.101 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 14:57:08.105 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 14:57:18.106 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 14:57:28.115 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 14:57:38.121 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 14:57:48.124 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 14:57:58.127 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 14:58:08.134 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 14:58:18.138 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 14:58:28.142 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 14:58:38.149 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 14:58:48.153 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 14:58:58.161 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 14:59:08.169 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 14:59:18.173 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 14:59:28.181 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 14:59:38.185 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 14:59:48.193 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 14:59:58.199 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:00:08.204 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:00:18.206 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:00:28.210 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:00:38.214 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:00:48.220 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:00:58.221 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:01:08.229 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:01:18.234 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:01:28.235 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:01:38.244 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:01:48.253 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:01:58.260 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:02:08.267 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:02:18.273 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:02:28.278 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:02:38.285 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:02:48.292 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:02:58.295 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:03:08.298 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:03:18.301 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:03:28.302 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:03:38.310 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:03:48.313 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:03:58.314 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:04:08.323 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:04:18.325 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:04:28.333 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:04:38.339 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:04:48.348 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:04:58.355 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:05:08.362 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:05:18.364 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:05:28.372 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:05:38.376 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:05:48.382 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:05:58.384 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:06:08.388 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:06:18.394 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:06:28.401 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:06:38.410 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:06:48.416 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:06:58.419 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:07:08.426 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:07:18.430 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:07:28.433 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:07:38.440 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:07:48.446 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:07:58.454 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:08:08.461 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:08:18.462 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:08:28.463 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:08:38.469 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:08:48.471 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:08:58.478 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:09:08.482 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:09:18.490 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:09:28.495 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:09:38.498 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:09:48.507 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:09:58.508 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:10:08.515 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:10:18.519 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:10:28.524 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:10:38.526 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:10:48.529 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:10:58.530 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:11:08.539 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:11:18.544 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:11:28.551 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:11:38.557 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:11:48.565 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:11:58.566 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:12:08.571 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:12:18.576 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:12:28.583 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:12:38.590 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:12:48.596 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:12:58.604 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:13:08.606 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:13:18.607 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:13:28.616 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:13:38.618 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:13:48.621 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:13:58.628 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:14:08.629 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:14:18.637 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:14:28.645 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:14:38.650 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:14:48.651 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:14:58.659 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:15:08.665 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:15:18.673 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:15:28.680 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:15:38.682 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:15:48.687 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:15:58.688 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:16:08.692 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:16:18.700 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:16:28.708 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:16:38.713 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:16:48.720 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:16:58.728 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:17:08.731 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:17:18.738 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:17:28.744 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:17:38.750 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:17:48.756 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:17:58.762 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:18:08.766 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:18:18.772 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:18:28.777 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:18:38.783 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:18:48.789 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:18:58.795 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:19:08.804 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:19:18.810 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:19:28.816 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:19:38.821 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:19:48.827 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:19:58.832 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:20:08.838 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:20:18.845 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:20:28.849 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:20:38.857 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:20:48.864 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:20:58.873 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:21:08.878 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:21:18.882 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:21:28.889 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:21:38.896 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:21:48.903 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:21:58.911 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:22:08.914 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:22:18.917 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:22:28.922 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:22:38.927 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:22:48.935 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:22:58.939 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:23:08.940 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:23:18.941 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:23:28.947 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:23:38.953 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:23:48.956 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:23:58.962 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:24:08.971 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:24:18.979 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:24:28.986 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:24:38.989 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:24:48.994 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:24:59.002 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:25:09.010 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:25:19.012 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:25:29.020 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:25:39.026 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:25:49.031 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:25:59.038 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:26:09.040 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:26:19.048 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:26:29.054 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:26:39.063 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:26:49.070 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:26:59.078 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:27:09.084 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:27:19.085 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:27:29.093 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:27:39.099 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:27:49.108 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:27:59.111 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:28:09.114 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:28:19.118 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:28:29.126 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:28:39.130 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:28:49.134 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:28:59.135 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:29:09.144 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:29:19.152 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:29:29.158 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:29:39.166 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:29:49.168 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:29:59.169 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:30:09.178 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:30:19.180 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:30:29.182 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:30:39.185 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:30:49.187 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:30:59.194 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:31:09.196 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:31:19.197 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:31:29.199 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:31:39.205 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:31:49.214 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:31:59.217 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:32:09.221 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:32:19.222 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:32:29.227 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:32:39.229 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:32:49.232 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:32:59.233 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:33:09.242 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:33:19.251 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:33:29.253 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:33:39.257 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:33:49.266 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:33:59.270 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:34:09.276 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:34:19.284 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:34:29.285 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:34:39.288 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:34:49.294 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:34:59.296 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:35:09.302 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:35:19.303 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:35:29.308 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:35:39.314 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:35:49.320 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:35:59.322 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:36:09.325 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:36:19.330 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:36:29.332 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:36:39.340 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:36:49.343 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:36:59.348 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:37:09.358 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:37:19.368 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:37:29.373 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:37:39.379 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:37:49.384 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:37:59.393 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:38:09.397 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:38:19.398 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:38:29.402 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:38:39.409 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:38:49.415 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:38:59.416 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:39:09.424 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:39:19.427 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:39:29.434 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:39:39.442 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:39:49.447 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:39:59.452 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:40:09.453 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:40:19.461 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:40:29.469 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:40:39.479 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:40:49.481 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:40:59.485 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:41:09.487 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:41:19.491 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:41:29.494 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:41:39.499 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:41:49.501 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:41:59.506 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:42:09.508 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:42:19.510 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:42:29.514 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:42:39.517 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:42:49.521 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:42:59.529 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:43:09.538 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:43:19.545 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:43:29.553 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:43:39.560 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:43:49.562 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:43:59.571 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:44:09.579 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:44:19.582 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:44:29.583 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:44:39.587 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:44:49.594 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:44:59.600 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:45:09.603 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:45:19.609 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:45:29.614 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:45:39.620 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:45:49.624 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:45:59.631 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:46:09.638 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:46:19.646 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:46:29.655 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:46:39.658 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:46:49.666 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:46:59.673 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:47:09.674 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:47:19.679 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:47:29.681 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:47:39.687 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:47:49.695 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:47:59.696 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:48:09.702 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:48:19.711 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:48:29.713 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:48:39.718 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:48:49.722 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:48:59.724 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:49:09.727 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:49:19.734 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:49:29.739 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:49:39.747 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:49:49.755 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:49:59.756 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:50:09.757 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:50:19.765 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:50:29.773 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:50:39.781 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:50:49.789 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:50:59.794 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:51:09.798 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:51:19.800 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:51:29.808 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:51:39.810 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:51:49.819 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:51:59.827 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:52:09.831 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:52:19.837 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:52:29.842 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:52:39.843 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:52:49.846 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:52:59.854 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:53:09.855 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:53:19.856 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:53:29.860 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:53:39.861 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:53:49.864 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:53:59.871 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:54:09.880 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:54:19.883 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:54:29.884 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:54:39.885 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:54:49.887 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:54:59.895 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:55:09.903 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:55:19.904 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:55:29.905 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:55:39.906 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:55:49.908 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:55:59.913 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:56:09.918 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:56:19.926 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:56:29.934 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:56:39.941 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:56:49.947 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:56:59.953 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:57:09.961 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:57:19.966 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:57:29.967 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:57:39.974 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:57:49.979 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:57:59.982 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:58:09.988 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:58:19.990 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:58:29.998 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:58:40.001 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:58:50.009 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:59:00.014 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:59:10.020 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:59:20.022 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:59:30.027 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:59:40.030 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 15:59:50.037 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 16:00:00.043 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 16:00:10.047 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 16:00:20.052 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 16:00:30.060 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 16:00:40.062 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 16:00:50.071 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 16:01:00.072 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 16:01:10.075 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 16:01:20.080 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 16:01:30.084 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 16:01:40.092 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 16:01:50.098 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 16:02:00.105 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 16:02:10.112 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 16:02:20.121 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 16:02:30.129 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 16:02:40.130 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 16:02:50.138 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 16:03:00.146 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 16:03:10.154 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 16:03:20.155 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 16:03:30.156 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 16:03:40.160 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 16:03:50.168 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 16:04:00.175 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 16:04:10.183 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 16:04:20.185 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 16:04:30.189 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 16:04:40.195 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 16:04:50.199 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 16:05:00.204 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 16:05:10.205 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 16:05:20.209 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 16:05:30.217 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 16:05:40.220 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 16:05:50.228 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 16:06:00.229 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 16:06:10.238 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 16:06:20.239 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 16:06:30.244 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 16:06:40.252 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 16:06:50.254 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 16:07:00.262 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 16:07:10.267 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 16:07:20.275 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 16:07:30.284 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 16:07:40.289 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 16:07:50.297 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 16:08:00.305 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 16:08:10.307 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 16:08:20.314 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 16:08:30.321 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 16:08:40.326 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 16:08:50.332 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 16:09:00.341 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 16:09:10.345 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 16:09:20.348 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 16:09:30.356 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 16:09:40.361 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 16:09:50.366 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 16:10:00.370 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 16:10:10.371 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 16:10:20.372 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 16:10:30.373 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 16:10:40.380 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 16:10:50.384 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 16:11:00.391 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 16:11:10.394 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 16:11:20.402 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 16:11:30.409 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 16:11:40.417 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 16:11:50.425 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 16:12:00.430 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 16:12:10.437 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 16:12:20.445 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 16:12:30.452 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 16:12:40.460 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 16:12:50.466 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 16:13:00.470 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 16:13:10.478 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 16:13:20.486 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 16:13:30.491 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 16:13:40.499 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 16:13:50.502 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 16:14:00.511 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 16:14:10.516 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 16:14:20.520 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 16:14:30.521 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 16:14:40.527 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 16:14:50.531 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 16:15:00.539 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 16:15:10.548 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 16:15:20.555 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 16:15:30.564 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 16:15:40.570 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 16:15:50.576 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 16:16:00.584 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 16:16:10.586 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 16:16:20.589 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 16:16:30.597 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 16:16:40.602 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 16:16:50.610 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 16:17:00.612 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 16:17:10.619 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 16:17:20.620 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 16:17:30.625 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 16:17:40.631 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 16:17:50.637 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 16:18:00.644 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 16:18:10.647 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 16:18:20.652 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 16:18:30.654 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 16:18:40.661 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 16:18:50.665 [info] <0.84.0>@mc_w_manager:handle_info:107 mc_w_manager recycle: no need.
+2015-06-24 16:19:39.139 [info] <0.7.0> Application lager started on node nonode@nohost
+2015-06-24 16:19:39.141 [info] <0.7.0> Application bson started on node nonode@nohost
+2015-06-24 16:19:39.174 [info] <0.7.0> Application crypto started on node nonode@nohost
+2015-06-24 16:19:39.238 [info] <0.7.0> Application mongodb started on node nonode@nohost
+2015-06-24 16:19:39.451 [info] <0.7.0> Application emcp started on node nonode@nohost
+2015-06-24 16:19:39.451 [info] <0.88.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:19:39.464 [info] <0.88.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:19:39.472 [info] <0.88.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:19:39.473 [info] <0.88.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:19:39.474 [info] <0.88.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:19:39.475 [info] <0.88.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:19:39.478 [info] <0.88.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:19:39.484 [info] <0.88.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:19:39.485 [info] <0.88.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:19:39.486 [info] <0.88.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:19:39.487 [info] <0.88.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:19:39.489 [info] <0.88.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:19:39.494 [info] <0.88.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:19:39.500 [info] <0.88.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:19:39.501 [info] <0.88.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:19:39.504 [info] <0.88.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:19:39.505 [info] <0.88.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:19:39.506 [info] <0.88.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:19:39.508 [info] <0.88.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:19:39.510 [info] <0.88.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:19:39.512 [info] <0.88.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:19:39.512 [info] <0.88.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:19:39.513 [info] <0.88.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:19:39.515 [info] <0.88.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:19:39.518 [info] <0.88.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:19:39.519 [info] <0.88.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:19:39.521 [info] <0.88.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:19:39.522 [info] <0.88.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:19:39.523 [info] <0.88.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:19:39.525 [info] <0.88.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:19:39.525 [info] <0.88.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:19:39.530 [info] <0.88.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:19:39.539 [info] <0.88.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:19:39.540 [info] <0.88.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:19:39.541 [info] <0.88.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:19:39.542 [info] <0.88.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:19:39.544 [info] <0.88.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:19:39.545 [info] <0.88.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:19:39.545 [info] <0.88.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:19:39.547 [info] <0.88.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:19:39.551 [info] <0.88.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:19:39.552 [info] <0.88.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:19:39.553 [info] <0.88.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:19:39.554 [info] <0.88.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:19:39.555 [info] <0.88.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:19:39.558 [info] <0.88.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:19:39.561 [info] <0.88.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:19:39.563 [info] <0.88.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:19:39.568 [info] <0.88.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:19:39.572 [info] <0.88.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:19:39.576 [info] <0.88.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:19:39.580 [info] <0.88.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:19:39.583 [info] <0.88.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:19:39.595 [info] <0.88.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:19:39.596 [info] <0.88.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:19:39.598 [info] <0.88.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:19:39.603 [info] <0.88.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:19:39.604 [info] <0.88.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:19:39.605 [info] <0.88.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:19:39.606 [info] <0.88.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:19:39.611 [info] <0.88.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:19:39.612 [info] <0.88.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:19:39.613 [info] <0.88.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:19:39.614 [info] <0.88.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:19:39.616 [info] <0.88.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:19:39.618 [info] <0.88.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:19:39.620 [info] <0.88.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:19:39.626 [info] <0.88.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:19:39.631 [info] <0.88.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:19:39.632 [info] <0.88.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:19:39.633 [info] <0.88.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:19:39.634 [info] <0.88.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:19:39.636 [info] <0.88.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:19:39.639 [info] <0.88.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:19:39.640 [info] <0.88.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:19:39.641 [info] <0.88.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:19:39.642 [info] <0.88.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:19:39.647 [info] <0.88.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:19:39.649 [info] <0.88.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:19:39.650 [info] <0.88.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:19:39.651 [info] <0.88.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:19:39.651 [info] <0.88.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:19:39.653 [info] <0.88.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:19:39.658 [info] <0.88.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:19:39.665 [info] <0.88.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:19:39.667 [info] <0.88.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:19:39.670 [info] <0.88.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:19:39.672 [info] <0.88.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:19:39.673 [info] <0.88.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:19:39.674 [info] <0.88.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:19:49.457 [info] <0.88.0>@mc_w_manager:handle_info:109 mc_w_manager recycle: kill 90 workers.
+2015-06-24 16:19:59.474 [info] <0.88.0>@mc_w_manager:handle_info:130 mc_w_manager recycle: no need.
+2015-06-24 16:20:09.483 [info] <0.88.0>@mc_w_manager:handle_info:130 mc_w_manager recycle: no need.
+2015-06-24 16:20:19.487 [info] <0.88.0>@mc_w_manager:handle_info:130 mc_w_manager recycle: no need.
+2015-06-24 16:20:29.495 [info] <0.88.0>@mc_w_manager:handle_info:130 mc_w_manager recycle: no need.
+2015-06-24 16:20:39.498 [info] <0.88.0>@mc_w_manager:handle_info:130 mc_w_manager recycle: no need.
+2015-06-24 16:20:49.505 [info] <0.88.0>@mc_w_manager:handle_info:130 mc_w_manager recycle: no need.
+2015-06-24 16:20:59.511 [info] <0.88.0>@mc_w_manager:handle_info:130 mc_w_manager recycle: no need.
+2015-06-24 16:21:09.519 [info] <0.88.0>@mc_w_manager:handle_info:130 mc_w_manager recycle: no need.
+2015-06-24 16:21:19.522 [info] <0.88.0>@mc_w_manager:handle_info:130 mc_w_manager recycle: no need.
+2015-06-24 16:21:29.530 [info] <0.88.0>@mc_w_manager:handle_info:130 mc_w_manager recycle: no need.
+2015-06-24 16:21:39.531 [info] <0.88.0>@mc_w_manager:handle_info:130 mc_w_manager recycle: no need.
+2015-06-24 16:21:49.538 [info] <0.88.0>@mc_w_manager:handle_info:130 mc_w_manager recycle: no need.
+2015-06-24 16:21:59.547 [info] <0.88.0>@mc_w_manager:handle_info:130 mc_w_manager recycle: no need.
+2015-06-24 16:22:09.551 [info] <0.88.0>@mc_w_manager:handle_info:130 mc_w_manager recycle: no need.
+2015-06-24 16:22:19.555 [info] <0.88.0>@mc_w_manager:handle_info:130 mc_w_manager recycle: no need.
+2015-06-24 16:22:39.666 [info] <0.7.0> Application lager started on node nonode@nohost
+2015-06-24 16:22:39.679 [info] <0.7.0> Application bson started on node nonode@nohost
+2015-06-24 16:22:39.700 [info] <0.7.0> Application crypto started on node nonode@nohost
+2015-06-24 16:22:39.770 [info] <0.7.0> Application mongodb started on node nonode@nohost
+2015-06-24 16:22:39.937 [info] <0.7.0> Application emcp started on node nonode@nohost
+2015-06-24 16:22:39.938 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:22:39.941 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:22:39.943 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:22:39.945 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:22:39.947 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:22:39.949 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:22:39.950 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:22:39.951 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:22:39.952 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:22:39.953 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:22:39.954 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:22:39.956 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:22:39.957 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:22:39.958 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:22:39.959 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:22:39.960 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:22:39.961 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:22:39.962 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:22:39.973 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:22:39.974 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:22:39.977 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:22:39.984 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:22:39.985 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:22:39.986 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:22:39.987 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:22:39.988 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:22:39.989 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:22:39.992 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:22:39.993 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:22:39.994 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:22:39.996 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:22:39.999 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:22:40.004 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:22:40.007 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:22:40.008 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:22:40.010 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:22:40.015 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:22:40.016 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:22:40.017 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:22:40.018 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:22:40.019 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:22:40.021 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:22:40.023 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:22:40.024 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:22:40.027 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:22:40.028 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:22:40.030 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:22:40.032 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:22:40.035 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:22:40.040 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:22:40.043 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:22:40.044 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:22:40.045 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:22:40.047 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:22:40.052 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:22:40.053 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:22:40.054 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:22:40.054 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:22:40.055 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:22:40.058 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:22:40.060 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:22:40.062 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:22:40.064 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:22:40.067 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:22:40.073 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:22:40.075 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:22:40.078 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:22:40.079 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:22:40.081 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:22:40.085 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:22:40.088 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:22:40.095 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:22:40.097 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:22:40.104 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:22:40.106 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:22:40.107 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:22:40.111 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:22:40.114 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:22:40.115 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:22:40.119 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:22:40.120 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:22:40.121 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:22:40.123 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:22:40.125 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:22:40.127 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:22:40.134 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:22:40.135 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:22:40.138 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:22:40.139 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:22:40.142 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:22:49.942 [info] <0.79.0>@mc_w_manager:handle_info:109 mc_w_manager recycle: kill 90 workers.
+2015-06-24 16:22:59.953 [info] <0.79.0>@mc_w_manager:handle_info:130 mc_w_manager recycle: no need.
+2015-06-24 16:23:09.961 [info] <0.79.0>@mc_w_manager:handle_info:130 mc_w_manager recycle: no need.
+2015-06-24 16:23:19.970 [info] <0.79.0>@mc_w_manager:handle_info:130 mc_w_manager recycle: no need.
+2015-06-24 16:23:29.971 [info] <0.79.0>@mc_w_manager:handle_info:130 mc_w_manager recycle: no need.
+2015-06-24 16:23:39.972 [info] <0.79.0>@mc_w_manager:handle_info:130 mc_w_manager recycle: no need.
+2015-06-24 16:23:49.973 [info] <0.79.0>@mc_w_manager:handle_info:130 mc_w_manager recycle: no need.
+2015-06-24 16:23:59.974 [info] <0.79.0>@mc_w_manager:handle_info:130 mc_w_manager recycle: no need.
+2015-06-24 16:24:09.975 [info] <0.79.0>@mc_w_manager:handle_info:130 mc_w_manager recycle: no need.
+2015-06-24 16:24:19.976 [info] <0.79.0>@mc_w_manager:handle_info:130 mc_w_manager recycle: no need.
+2015-06-24 16:24:29.977 [info] <0.79.0>@mc_w_manager:handle_info:130 mc_w_manager recycle: no need.
+2015-06-24 16:24:39.978 [info] <0.79.0>@mc_w_manager:handle_info:130 mc_w_manager recycle: no need.
+2015-06-24 16:24:49.979 [info] <0.79.0>@mc_w_manager:handle_info:130 mc_w_manager recycle: no need.
+2015-06-24 16:24:59.980 [info] <0.79.0>@mc_w_manager:handle_info:130 mc_w_manager recycle: no need.
+2015-06-24 16:25:09.981 [info] <0.79.0>@mc_w_manager:handle_info:130 mc_w_manager recycle: no need.
+2015-06-24 16:25:19.982 [info] <0.79.0>@mc_w_manager:handle_info:130 mc_w_manager recycle: no need.
+2015-06-24 16:25:29.983 [info] <0.79.0>@mc_w_manager:handle_info:130 mc_w_manager recycle: no need.
+2015-06-24 16:25:39.984 [info] <0.79.0>@mc_w_manager:handle_info:130 mc_w_manager recycle: no need.
+2015-06-24 16:25:49.985 [info] <0.79.0>@mc_w_manager:handle_info:130 mc_w_manager recycle: no need.
+2015-06-24 16:25:59.986 [info] <0.79.0>@mc_w_manager:handle_info:130 mc_w_manager recycle: no need.
+2015-06-24 16:26:09.987 [info] <0.79.0>@mc_w_manager:handle_info:130 mc_w_manager recycle: no need.
+2015-06-24 16:26:19.988 [info] <0.79.0>@mc_w_manager:handle_info:130 mc_w_manager recycle: no need.
+2015-06-24 16:26:29.989 [info] <0.79.0>@mc_w_manager:handle_info:130 mc_w_manager recycle: no need.
+2015-06-24 16:26:39.990 [info] <0.79.0>@mc_w_manager:handle_info:130 mc_w_manager recycle: no need.
+2015-06-24 16:26:49.991 [info] <0.79.0>@mc_w_manager:handle_info:130 mc_w_manager recycle: no need.
+2015-06-24 16:26:59.992 [info] <0.79.0>@mc_w_manager:handle_info:130 mc_w_manager recycle: no need.
+2015-06-24 16:27:09.993 [info] <0.79.0>@mc_w_manager:handle_info:130 mc_w_manager recycle: no need.
+2015-06-24 16:28:10.396 [info] <0.7.0> Application lager started on node nonode@nohost
+2015-06-24 16:28:10.407 [info] <0.7.0> Application bson started on node nonode@nohost
+2015-06-24 16:28:10.432 [info] <0.7.0> Application crypto started on node nonode@nohost
+2015-06-24 16:28:10.497 [info] <0.7.0> Application mongodb started on node nonode@nohost
+2015-06-24 16:28:10.655 [info] <0.7.0> Application emcp started on node nonode@nohost
+2015-06-24 16:28:10.655 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:28:10.658 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:28:10.660 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:28:10.661 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:28:10.665 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:28:10.666 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:28:10.667 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:28:10.669 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:28:10.671 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:28:10.673 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:28:10.680 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:28:10.682 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:28:10.687 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:28:10.693 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:28:10.693 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:28:10.695 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:28:10.699 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:28:10.700 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:28:10.701 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:28:10.702 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:28:10.704 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:28:10.706 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:28:10.708 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:28:10.712 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:28:10.718 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:28:10.723 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:28:10.724 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:28:10.725 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:28:10.726 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:28:10.727 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:28:10.728 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:28:10.730 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:28:10.732 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:28:10.732 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:28:10.735 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:28:10.736 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:28:10.736 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:28:10.740 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:28:10.750 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:28:10.752 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:28:10.755 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:28:10.756 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:28:10.757 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:28:10.757 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:28:10.762 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:28:10.764 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:28:10.765 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:28:10.766 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:28:10.767 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:28:10.769 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:28:10.771 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:28:10.775 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:28:10.784 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:28:10.785 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:28:10.786 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:28:10.789 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:28:10.793 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:28:10.795 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:28:10.803 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:28:10.809 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:28:10.813 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:28:10.815 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:28:10.818 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:28:10.823 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:28:10.824 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:28:10.827 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:28:10.829 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:28:10.829 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:28:10.830 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:28:10.833 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:28:10.834 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:28:10.842 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:28:10.845 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:28:10.846 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:28:10.850 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:28:10.851 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:28:10.852 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:28:10.853 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:28:10.854 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:28:10.855 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:28:10.857 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:28:10.858 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:28:10.861 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:28:10.862 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:28:10.863 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:28:10.864 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:28:10.866 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:28:10.875 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:28:10.879 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:28:10.881 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:28:20.663 [info] <0.79.0>@mc_w_manager:handle_info:109 mc_w_manager recycle: kill 90 workers.
+2015-06-24 16:28:30.679 [info] <0.79.0>@mc_w_manager:handle_info:130 mc_w_manager recycle: no need.
+2015-06-24 16:28:40.680 [info] <0.79.0>@mc_w_manager:handle_info:130 mc_w_manager recycle: no need.
+2015-06-24 16:28:50.689 [info] <0.79.0>@mc_w_manager:handle_info:130 mc_w_manager recycle: no need.
+2015-06-24 16:29:03.907 [info] <0.7.0> Application lager started on node nonode@nohost
+2015-06-24 16:29:03.907 [info] <0.7.0> Application bson started on node nonode@nohost
+2015-06-24 16:29:03.923 [info] <0.7.0> Application crypto started on node nonode@nohost
+2015-06-24 16:29:03.998 [info] <0.7.0> Application mongodb started on node nonode@nohost
+2015-06-24 16:29:04.182 [info] <0.7.0> Application emcp started on node nonode@nohost
+2015-06-24 16:29:04.183 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:29:04.187 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:29:04.189 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:29:04.190 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:29:04.194 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:29:04.195 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:29:04.196 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:29:04.198 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:29:04.199 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:29:04.200 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:29:04.202 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:29:04.210 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:29:04.216 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:29:04.217 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:29:04.218 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:29:04.219 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:29:04.221 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:29:04.228 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:29:04.229 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:29:04.231 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:29:04.234 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:29:04.235 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:29:04.237 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:29:04.239 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:29:04.241 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:29:04.246 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:29:04.249 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:29:04.251 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:29:04.254 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:29:04.255 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:29:04.257 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:29:04.259 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:29:04.260 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:29:04.263 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:29:04.265 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:29:04.266 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:29:04.266 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:29:04.273 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:29:04.275 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:29:04.278 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:29:04.282 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:29:04.283 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:29:04.284 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:29:04.287 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:29:04.289 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:29:04.290 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:29:04.292 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:29:04.296 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:29:04.297 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:29:04.298 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:29:04.299 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:29:04.300 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:29:04.304 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:29:04.308 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:29:04.315 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:29:04.316 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:29:04.317 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:29:04.319 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:29:04.320 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:29:04.324 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:29:04.325 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:29:04.328 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:29:04.330 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:29:04.331 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:29:04.333 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:29:04.340 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:29:04.343 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:29:04.347 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:29:04.349 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:29:04.354 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:29:04.356 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:29:04.361 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:29:04.363 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:29:04.365 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:29:04.373 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:29:04.376 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:29:04.377 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:29:04.379 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:29:04.380 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:29:04.383 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:29:04.384 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:29:04.387 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:29:04.391 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:29:04.393 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:29:04.394 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:29:04.394 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:29:04.395 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:29:04.398 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:29:04.404 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:29:04.411 [info] <0.79.0>@mc_w_manager:handle_call:70 spawn a new worker
+2015-06-24 16:29:14.187 [info] <0.79.0>@mc_w_manager:handle_info:109 mc_w_manager recycle: kill 90 workers.
+2015-06-24 16:30:09.187 [info] <0.7.0> Application lager started on node nonode@nohost
+2015-06-24 16:30:09.192 [info] <0.7.0> Application bson started on node nonode@nohost
+2015-06-24 16:30:09.216 [info] <0.7.0> Application crypto started on node nonode@nohost
+2015-06-24 16:30:09.280 [info] <0.7.0> Application mongodb started on node nonode@nohost
+2015-06-24 16:30:09.454 [info] <0.7.0> Application emcp started on node nonode@nohost
+2015-06-24 16:30:19.458 [info] <0.79.0>@mc_w_manager:handle_info:130 mc_w_manager recycle: no need.
+2015-06-24 16:30:29.460 [info] <0.79.0>@mc_w_manager:handle_info:130 mc_w_manager recycle: no need.
+2015-06-24 16:30:39.467 [info] <0.79.0>@mc_w_manager:handle_info:130 mc_w_manager recycle: no need.
+2015-06-24 16:30:49.468 [info] <0.79.0>@mc_w_manager:handle_info:130 mc_w_manager recycle: no need.
+2015-06-24 16:30:59.469 [info] <0.79.0>@mc_w_manager:handle_info:130 mc_w_manager recycle: no need.
+2015-06-24 16:31:09.470 [info] <0.79.0>@mc_w_manager:handle_info:130 mc_w_manager recycle: no need.
+2015-06-24 16:31:19.471 [info] <0.79.0>@mc_w_manager:handle_info:130 mc_w_manager recycle: no need.
+2015-06-24 16:31:29.472 [info] <0.79.0>@mc_w_manager:handle_info:130 mc_w_manager recycle: no need.
+2015-06-24 16:31:39.473 [info] <0.79.0>@mc_w_manager:handle_info:130 mc_w_manager recycle: no need.
+2015-06-24 16:31:49.474 [info] <0.79.0>@mc_w_manager:handle_info:135 mc_w_manager recycle: add 1 workers.
+2015-06-24 16:39:02.136 [info] <0.7.0> Application lager started on node nonode@nohost
+2015-06-24 16:39:02.136 [info] <0.7.0> Application bson started on node nonode@nohost
+2015-06-24 16:39:02.153 [info] <0.7.0> Application crypto started on node nonode@nohost
+2015-06-24 16:39:02.212 [info] <0.7.0> Application mongodb started on node nonode@nohost
+2015-06-24 16:39:02.381 [info] <0.7.0> Application emcp started on node nonode@nohost
+2015-06-24 16:39:12.381 [info] <0.79.0>@mc_w_manager:handle_info:131 mc_w_manager recycle: no need.
+2015-06-24 16:39:22.388 [info] <0.79.0>@mc_w_manager:handle_info:131 mc_w_manager recycle: no need.
+2015-06-24 16:39:32.394 [info] <0.79.0>@mc_w_manager:handle_info:131 mc_w_manager recycle: no need.
+2015-06-24 16:39:42.398 [info] <0.79.0>@mc_w_manager:handle_info:131 mc_w_manager recycle: no need.
+2015-06-24 16:39:52.399 [info] <0.79.0>@mc_w_manager:handle_info:131 mc_w_manager recycle: no need.
+2015-06-24 16:40:02.400 [info] <0.79.0>@mc_w_manager:handle_info:131 mc_w_manager recycle: no need.
+2015-06-24 16:40:12.401 [info] <0.79.0>@mc_w_manager:handle_info:131 mc_w_manager recycle: no need.
+2015-06-24 16:40:22.402 [info] <0.79.0>@mc_w_manager:handle_info:131 mc_w_manager recycle: no need.
+2015-06-24 16:40:32.403 [info] <0.79.0>@mc_w_manager:handle_info:131 mc_w_manager recycle: no need.
+2015-06-24 16:40:42.404 [info] <0.79.0>@mc_w_manager:handle_info:136 mc_w_manager recycle: add 1 workers.
+2015-06-24 16:42:06.729 [info] <0.7.0> Application lager started on node nonode@nohost
+2015-06-24 16:42:06.733 [info] <0.7.0> Application bson started on node nonode@nohost
+2015-06-24 16:42:06.755 [info] <0.7.0> Application crypto started on node nonode@nohost
+2015-06-24 16:42:06.822 [info] <0.7.0> Application mongodb started on node nonode@nohost
+2015-06-24 16:42:07.036 [info] <0.7.0> Application emcp started on node nonode@nohost
+2015-06-24 16:48:46.303 [info] <0.7.0> Application lager started on node nonode@nohost
+2015-06-24 16:48:46.303 [info] <0.7.0> Application bson started on node nonode@nohost
+2015-06-24 16:48:46.318 [info] <0.7.0> Application crypto started on node nonode@nohost
+2015-06-24 16:48:46.383 [info] <0.7.0> Application mongodb started on node nonode@nohost
+2015-06-24 16:48:46.539 [info] <0.7.0> Application emcp started on node nonode@nohost
+2015-06-24 16:50:12.522 [info] <0.7.0> Application lager started on node nonode@nohost
+2015-06-24 16:50:12.533 [info] <0.7.0> Application bson started on node nonode@nohost
+2015-06-24 16:50:12.555 [info] <0.7.0> Application crypto started on node nonode@nohost
+2015-06-24 16:50:12.614 [info] <0.7.0> Application mongodb started on node nonode@nohost
+2015-06-24 16:50:12.789 [info] <0.7.0> Application emcp started on node nonode@nohost
+2015-06-24 19:21:47.594 [info] <0.7.0> Application lager started on node nonode@nohost
+2015-06-24 19:21:47.610 [info] <0.7.0> Application bson started on node nonode@nohost
+2015-06-24 19:21:47.637 [info] <0.7.0> Application crypto started on node nonode@nohost
+2015-06-24 19:21:47.707 [info] <0.7.0> Application mongodb started on node nonode@nohost
+2015-06-24 19:21:47.770 [error] <0.78.0> CRASH REPORT Process <0.78.0> with 0 neighbours exited with reason: call to undefined function emcp_config:max_conn() in gen_server:init_it/6 line 330
+2015-06-24 19:21:47.770 [error] <0.77.0> Supervisor emcp_sup had child mc_cp started with mc_cp:start_link() at undefined exit with reason call to undefined function emcp_config:max_conn() in context start_error
+2015-06-24 19:21:47.771 [error] <0.36.0> CRASH REPORT Process <0.36.0> with 0 neighbours exited with reason: {{shutdown,{failed_to_start_child,mc_cp,{undef,[{emcp_config,max_conn,[],[]},{mc_cp,init,1,[{file,"src/mc_cp.erl"},{line,42}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,306}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,237}]}]}}},{emcp_app,start,[normal,[]]}} in application_master:init/4 line 133
+2015-06-24 19:21:47.774 [info] <0.7.0> Application emcp exited with reason: {{shutdown,{failed_to_start_child,mc_cp,{undef,[{emcp_config,max_conn,[],[]},{mc_cp,init,1,[{file,"src/mc_cp.erl"},{line,42}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,306}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,237}]}]}}},{emcp_app,start,[normal,[]]}}
+2015-06-24 19:22:26.872 [info] <0.7.0> Application lager started on node nonode@nohost
+2015-06-24 19:22:26.888 [info] <0.7.0> Application bson started on node nonode@nohost
+2015-06-24 19:22:26.920 [info] <0.7.0> Application crypto started on node nonode@nohost
+2015-06-24 19:22:26.977 [info] <0.7.0> Application mongodb started on node nonode@nohost
+2015-06-24 19:22:27.205 [info] <0.7.0> Application emcp started on node nonode@nohost
+2015-06-24 19:24:18.001 [info] <0.7.0> Application lager started on node nonode@nohost
+2015-06-24 19:24:18.014 [info] <0.7.0> Application bson started on node nonode@nohost
+2015-06-24 19:24:18.048 [info] <0.7.0> Application crypto started on node nonode@nohost
+2015-06-24 19:24:18.117 [info] <0.7.0> Application mongodb started on node nonode@nohost
+2015-06-24 19:24:18.318 [error] <0.93.0> CRASH REPORT Process <0.93.0> with 0 neighbours exited with reason: no match of right hand value nomatch in mc_cp:get_conn/0 line 30 in gen_server:init_it/6 line 330
+2015-06-24 19:24:18.318 [error] <0.91.0> Supervisor mc_w_sup had child mc_w started with {mc_w,start_link,undefined} at <0.93.0> exit with reason no match of right hand value nomatch in mc_cp:get_conn/0 line 30 in context child_terminated
+2015-06-24 19:24:18.319 [error] <0.92.0> CRASH REPORT Process <0.92.0> with 0 neighbours exited with reason: no match of right hand value {error,{{badmatch,nomatch},[{mc_cp,get_conn,0,[{file,"src/mc_cp.erl"},{line,30}]},{mc_w,init,1,[{file,"src/mc_w.erl"},{line,44}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,306}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,237}]}]}} in mc_w_manager:loop_start_workers/2 line 144 in gen_server:init_it/6 line 330
+2015-06-24 19:24:18.319 [error] <0.77.0> Supervisor emcp_sup had child mc_w_manager started with mc_w_manager:start_link() at undefined exit with reason no match of right hand value {error,{{badmatch,nomatch},[{mc_cp,get_conn,0,[{file,"src/mc_cp.erl"},{line,30}]},{mc_w,init,1,[{file,"src/mc_w.erl"},{line,44}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,306}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,237}]}]}} in mc_w_manager:loop_start_workers/2 line 144 in context start_error
+2015-06-24 19:24:18.323 [error] <0.36.0> CRASH REPORT Process <0.36.0> with 0 neighbours exited with reason: {{shutdown,{failed_to_start_child,mc_w_manager,{{badmatch,{error,{{badmatch,nomatch},[{mc_cp,get_conn,0,[{file,"src/mc_cp.erl"},{line,30}]},{mc_w,init,1,[{file,"src/mc_w.erl"},{line,44}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,306}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,237}]}]}}},[{mc_w_manager,loop_start_workers,2,[{file,"src/mc_w_manager.erl"},{line,144}]},{mc_w_manager,init,1,[{file,"src/mc_w_manager.erl"},{line,51}]},{gen_server,init_it,6,[{file,"gen_..."},...]},...]}}},...} in application_master:init/4 line 133
+2015-06-24 19:24:18.324 [info] <0.7.0> Application emcp exited with reason: {{shutdown,{failed_to_start_child,mc_w_manager,{{badmatch,{error,{{badmatch,nomatch},[{mc_cp,get_conn,0,[{file,"src/mc_cp.erl"},{line,30}]},{mc_w,init,1,[{file,"src/mc_w.erl"},{line,44}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,306}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,237}]}]}}},[{mc_w_manager,loop_start_workers,2,[{file,"src/mc_w_manager.erl"},{line,144}]},{mc_w_manager,init,1,[{file,"src/mc_w_manager.erl"},{line,51}]},{gen_server,init_it,6,[{file,"gen_..."},...]},...]}}},...}
+2015-06-24 19:24:56.750 [info] <0.7.0> Application lager started on node nonode@nohost
+2015-06-24 19:24:56.761 [info] <0.7.0> Application bson started on node nonode@nohost
+2015-06-24 19:24:56.787 [info] <0.7.0> Application crypto started on node nonode@nohost
+2015-06-24 19:24:56.862 [info] <0.7.0> Application mongodb started on node nonode@nohost
+2015-06-24 19:24:57.096 [info] <0.7.0> Application emcp started on node nonode@nohost
+2015-06-24 19:25:26.226 [error] <0.93.0> gen_server <0.93.0> terminated with reason: {{function_clause,[{gen,call,[{ok,<0.84.0>},'$gen_call',{query,false,false,false,false,<<"likes">>,0,0,{like_to,<<"1069601">>},{<<"author.uid">>,true}},infinity],[{file,"gen.erl"},{line,149}]},{gen_server,call,3,[{file,"gen_server.erl"},{line,186}]},{mc_connection_man,request_async,2,[{file,"src/connection/mc_connection_man.erl"},{line,23}]},{mc_action_man,read,2,[{file,"src/core/mc_action_man.erl"},{line,18}]},{mc_w,get_data,4,[{file,"src/mc_w.erl"},{line,110}]},{mc_w,handle_call,3,[{file,...},...]},...]},...} in gen_server:call/3 line 190
+2015-06-24 19:25:26.226 [error] <0.93.0> CRASH REPORT Process <0.93.0> with 0 neighbours exited with reason: {{function_clause,[{gen,call,[{ok,<0.84.0>},'$gen_call',{query,false,false,false,false,<<"likes">>,0,0,{like_to,<<"1069601">>},{<<"author.uid">>,true}},infinity],[{file,"gen.erl"},{line,149}]},{gen_server,call,3,[{file,"gen_server.erl"},{line,186}]},{mc_connection_man,request_async,2,[{file,"src/connection/mc_connection_man.erl"},{line,23}]},{mc_action_man,read,2,[{file,"src/core/mc_action_man.erl"},{line,18}]},{mc_w,get_data,4,[{file,"src/mc_w.erl"},{line,110}]},{mc_w,handle_call,3,[{file,...},...]},...]},...} in gen_server:terminate/7 line 804
+2015-06-24 19:25:26.228 [error] <0.91.0> Supervisor mc_w_sup had child mc_w started with {mc_w,start_link,undefined} at <0.93.0> exit with reason {{function_clause,[{gen,call,[{ok,<0.84.0>},'$gen_call',{query,false,false,false,false,<<"likes">>,0,0,{like_to,<<"1069601">>},{<<"author.uid">>,true}},infinity],[{file,"gen.erl"},{line,149}]},{gen_server,call,3,[{file,"gen_server.erl"},{line,186}]},{mc_connection_man,request_async,2,[{file,"src/connection/mc_connection_man.erl"},{line,23}]},{mc_action_man,read,2,[{file,"src/core/mc_action_man.erl"},{line,18}]},{mc_w,get_data,4,[{file,"src/mc_w.erl"},{line,110}]},{mc_w,handle_call,3,[{file,...},...]},...]},...} in context child_terminated
+2015-06-24 19:25:27.097 [info] <0.92.0>@mc_w_manager:handle_info:124 mc_w_manager recycle: add 1 workers.
+2015-06-24 20:17:07.759 [info] <0.7.0> Application lager started on node nonode@nohost
+2015-06-24 20:17:07.762 [info] <0.7.0> Application bson started on node nonode@nohost
+2015-06-24 20:17:07.795 [info] <0.7.0> Application crypto started on node nonode@nohost
+2015-06-24 20:17:07.853 [info] <0.7.0> Application mongodb started on node nonode@nohost
+2015-06-24 20:17:08.042 [info] <0.7.0> Application emcp started on node nonode@nohost
+2015-06-24 20:17:25.374 [error] <0.93.0> gen_server <0.93.0> terminated with reason: {{function_clause,[{gen,call,[{ok,<0.84.0>},'$gen_call',{query,false,false,false,false,<<"likes">>,0,0,{like_to,<<"1069601">>},{<<"author.uid">>,true}},infinity],[{file,"gen.erl"},{line,149}]},{gen_server,call,3,[{file,"gen_server.erl"},{line,186}]},{mc_connection_man,request_async,2,[{file,"src/connection/mc_connection_man.erl"},{line,23}]},{mc_action_man,read,2,[{file,"src/core/mc_action_man.erl"},{line,18}]},{mc_w,get_data,4,[{file,"src/mc_w.erl"},{line,110}]},{mc_w,handle_call,3,[{file,...},...]},...]},...} in gen_server:call/3 line 190
+2015-06-24 20:17:25.375 [error] <0.93.0> CRASH REPORT Process <0.93.0> with 0 neighbours exited with reason: {{function_clause,[{gen,call,[{ok,<0.84.0>},'$gen_call',{query,false,false,false,false,<<"likes">>,0,0,{like_to,<<"1069601">>},{<<"author.uid">>,true}},infinity],[{file,"gen.erl"},{line,149}]},{gen_server,call,3,[{file,"gen_server.erl"},{line,186}]},{mc_connection_man,request_async,2,[{file,"src/connection/mc_connection_man.erl"},{line,23}]},{mc_action_man,read,2,[{file,"src/core/mc_action_man.erl"},{line,18}]},{mc_w,get_data,4,[{file,"src/mc_w.erl"},{line,110}]},{mc_w,handle_call,3,[{file,...},...]},...]},...} in gen_server:terminate/7 line 804
+2015-06-24 20:17:25.375 [error] <0.91.0> Supervisor mc_w_sup had child mc_w started with {mc_w,start_link,undefined} at <0.93.0> exit with reason {{function_clause,[{gen,call,[{ok,<0.84.0>},'$gen_call',{query,false,false,false,false,<<"likes">>,0,0,{like_to,<<"1069601">>},{<<"author.uid">>,true}},infinity],[{file,"gen.erl"},{line,149}]},{gen_server,call,3,[{file,"gen_server.erl"},{line,186}]},{mc_connection_man,request_async,2,[{file,"src/connection/mc_connection_man.erl"},{line,23}]},{mc_action_man,read,2,[{file,"src/core/mc_action_man.erl"},{line,18}]},{mc_w,get_data,4,[{file,"src/mc_w.erl"},{line,110}]},{mc_w,handle_call,3,[{file,...},...]},...]},...} in context child_terminated
+2015-06-24 20:17:38.042 [info] <0.92.0>@mc_w_manager:handle_info:124 mc_w_manager recycle: add 1 workers.
+2015-06-24 20:18:08.043 [info] <0.92.0>@mc_w_manager:handle_info:119 mc_w_manager recycle: no need.
+2015-06-24 20:18:38.044 [info] <0.92.0>@mc_w_manager:handle_info:119 mc_w_manager recycle: no need.
+2015-06-24 20:19:08.045 [info] <0.92.0>@mc_w_manager:handle_info:119 mc_w_manager recycle: no need.
+2015-06-24 20:19:31.629 [info] <0.7.0> Application lager started on node nonode@nohost
+2015-06-24 20:19:31.644 [info] <0.7.0> Application bson started on node nonode@nohost
+2015-06-24 20:19:31.667 [info] <0.7.0> Application crypto started on node nonode@nohost
+2015-06-24 20:19:31.731 [info] <0.7.0> Application mongodb started on node nonode@nohost
+2015-06-24 20:19:31.922 [info] <0.7.0> Application emcp started on node nonode@nohost
+2015-06-24 20:20:01.940 [info] <0.92.0>@mc_w_manager:handle_info:119 mc_w_manager recycle: no need.
+2015-06-24 20:20:31.969 [info] <0.92.0>@mc_w_manager:handle_info:119 mc_w_manager recycle: no need.
+2015-06-24 20:21:01.992 [info] <0.92.0>@mc_w_manager:handle_info:119 mc_w_manager recycle: no need.
+2015-06-24 20:21:31.996 [info] <0.92.0>@mc_w_manager:handle_info:119 mc_w_manager recycle: no need.
+2015-06-24 20:22:02.002 [info] <0.92.0>@mc_w_manager:handle_info:119 mc_w_manager recycle: no need.
+2015-06-24 20:22:32.028 [info] <0.92.0>@mc_w_manager:handle_info:119 mc_w_manager recycle: no need.
+2015-06-24 20:23:02.034 [info] <0.92.0>@mc_w_manager:handle_info:119 mc_w_manager recycle: no need.
+2015-06-24 20:23:32.051 [info] <0.92.0>@mc_w_manager:handle_info:119 mc_w_manager recycle: no need.
+2015-06-24 20:24:02.078 [info] <0.92.0>@mc_w_manager:handle_info:119 mc_w_manager recycle: no need.
+2015-06-24 20:24:32.088 [info] <0.92.0>@mc_w_manager:handle_info:119 mc_w_manager recycle: no need.
+2015-06-24 20:25:02.103 [info] <0.92.0>@mc_w_manager:handle_info:119 mc_w_manager recycle: no need.
+2015-06-24 20:25:32.130 [info] <0.92.0>@mc_w_manager:handle_info:119 mc_w_manager recycle: no need.
+2015-06-24 20:26:02.144 [info] <0.92.0>@mc_w_manager:handle_info:119 mc_w_manager recycle: no need.
+2015-06-24 20:26:32.168 [info] <0.92.0>@mc_w_manager:handle_info:119 mc_w_manager recycle: no need.
+2015-06-24 20:27:02.181 [info] <0.92.0>@mc_w_manager:handle_info:119 mc_w_manager recycle: no need.
+2015-06-24 20:27:32.186 [info] <0.92.0>@mc_w_manager:handle_info:119 mc_w_manager recycle: no need.
+2015-06-24 20:28:02.213 [info] <0.92.0>@mc_w_manager:handle_info:119 mc_w_manager recycle: no need.
+2015-06-24 20:28:32.230 [info] <0.92.0>@mc_w_manager:handle_info:119 mc_w_manager recycle: no need.
+2015-06-24 20:29:02.252 [info] <0.92.0>@mc_w_manager:handle_info:119 mc_w_manager recycle: no need.
+2015-06-24 20:29:32.253 [info] <0.92.0>@mc_w_manager:handle_info:119 mc_w_manager recycle: no need.
+2015-06-24 20:29:43.527 [error] <0.77.0> Supervisor emcp_sup had child mc_cp started with mc_cp:start_link() at <0.78.0> exit with reason killed in context child_terminated
+2015-06-24 20:30:02.254 [info] <0.92.0>@mc_w_manager:handle_info:119 mc_w_manager recycle: no need.
+2015-06-24 20:30:11.933 [error] <0.77.0> Supervisor emcp_sup had child mc_cp started with mc_cp:start_link() at <0.126.0> exit with reason killed in context child_terminated
+2015-06-24 20:30:32.255 [info] <0.92.0>@mc_w_manager:handle_info:119 mc_w_manager recycle: no need.
+2015-06-24 20:31:02.256 [info] <0.92.0>@mc_w_manager:handle_info:119 mc_w_manager recycle: no need.
+2015-06-24 20:31:32.257 [info] <0.92.0>@mc_w_manager:handle_info:119 mc_w_manager recycle: no need.
+2015-06-24 20:32:02.258 [info] <0.92.0>@mc_w_manager:handle_info:119 mc_w_manager recycle: no need.
+2015-06-24 20:32:32.259 [info] <0.92.0>@mc_w_manager:handle_info:119 mc_w_manager recycle: no need.
+2015-06-24 20:33:02.260 [info] <0.92.0>@mc_w_manager:handle_info:119 mc_w_manager recycle: no need.
+2015-06-24 20:33:32.261 [info] <0.92.0>@mc_w_manager:handle_info:119 mc_w_manager recycle: no need.
+2015-06-24 20:34:02.262 [info] <0.92.0>@mc_w_manager:handle_info:119 mc_w_manager recycle: no need.
+2015-06-24 20:34:32.263 [info] <0.92.0>@mc_w_manager:handle_info:119 mc_w_manager recycle: no need.
+2015-06-24 20:35:02.264 [info] <0.92.0>@mc_w_manager:handle_info:119 mc_w_manager recycle: no need.
+2015-06-24 20:35:32.265 [info] <0.92.0>@mc_w_manager:handle_info:119 mc_w_manager recycle: no need.
+2015-06-24 20:36:02.266 [info] <0.92.0>@mc_w_manager:handle_info:119 mc_w_manager recycle: no need.
+2015-06-24 20:36:32.267 [info] <0.92.0>@mc_w_manager:handle_info:119 mc_w_manager recycle: no need.
+2015-06-24 20:37:02.268 [info] <0.92.0>@mc_w_manager:handle_info:119 mc_w_manager recycle: no need.
+2015-06-24 20:37:32.269 [info] <0.92.0>@mc_w_manager:handle_info:119 mc_w_manager recycle: no need.
+2015-06-24 20:38:02.270 [info] <0.92.0>@mc_w_manager:handle_info:119 mc_w_manager recycle: no need.
+2015-06-24 20:38:32.271 [info] <0.92.0>@mc_w_manager:handle_info:119 mc_w_manager recycle: no need.
+2015-06-24 20:39:02.272 [info] <0.92.0>@mc_w_manager:handle_info:119 mc_w_manager recycle: no need.
+2015-06-24 20:39:32.273 [info] <0.92.0>@mc_w_manager:handle_info:119 mc_w_manager recycle: no need.
+2015-06-24 20:40:02.274 [info] <0.92.0>@mc_w_manager:handle_info:119 mc_w_manager recycle: no need.
+2015-06-24 20:40:32.275 [info] <0.92.0>@mc_w_manager:handle_info:119 mc_w_manager recycle: no need.
+2015-06-24 20:41:02.276 [info] <0.92.0>@mc_w_manager:handle_info:119 mc_w_manager recycle: no need.
+2015-06-24 20:46:27.034 [info] <0.7.0> Application lager started on node nonode@nohost
+2015-06-24 20:46:27.040 [info] <0.7.0> Application bson started on node nonode@nohost
+2015-06-24 20:46:27.070 [info] <0.7.0> Application crypto started on node nonode@nohost
+2015-06-24 20:46:27.146 [info] <0.7.0> Application mongodb started on node nonode@nohost
+2015-06-24 20:46:27.370 [info] <0.7.0> Application emcp started on node nonode@nohost
+2015-06-24 20:46:49.898 [error] <0.78.0> Supervisor mc_c_sup had child mongo started with {mongo,connect,undefined} at <0.80.0> exit with reason killed in context child_terminated
+2015-06-24 20:46:57.371 [info] <0.93.0>@mc_w_manager:handle_info:119 mc_w_manager recycle: no need.

@@ -1,0 +1,768 @@
+2015-06-24 12:37:52 =ERROR REPORT====
+** Generic server mc_w_manager terminating 
+** Last message in was recycle
+** When Server state == {state,10,{[<0.100.0>,<0.98.0>,<0.96.0>,<0.94.0>,<0.92.0>,<0.90.0>,<0.88.0>,<0.86.0>,<0.84.0>],[<0.80.0>]}}
+** Reason for termination == 
+** {'function not exported',[{lager,info,["recycle: no need~n"],[]},{mc_w_manager,handle_info,2,[{file,"src/mc/mc_w_manager.erl"},{line,106}]},{gen_server,try_dispatch,4,[{file,"gen_server.erl"},{line,593}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,659}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,237}]}]}
+2015-06-24 12:37:52 =CRASH REPORT====
+  crasher:
+    initial call: mc_w_manager:init/1
+    pid: <0.79.0>
+    registered_name: mc_w_manager
+    exception exit: {{undef,[{lager,info,["recycle: no need~n"],[]},{mc_w_manager,handle_info,2,[{file,"src/mc/mc_w_manager.erl"},{line,106}]},{gen_server,try_dispatch,4,[{file,"gen_server.erl"},{line,593}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,659}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,237}]}]},[{gen_server,terminate,7,[{file,"gen_server.erl"},{line,804}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,237}]}]}
+    ancestors: [emcp_sup,<0.37.0>]
+    messages: []
+    links: [<0.77.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 987
+    stack_size: 27
+    reductions: 325
+  neighbours:
+2015-06-24 12:37:52 =SUPERVISOR REPORT====
+     Supervisor: {local,emcp_sup}
+     Context:    child_terminated
+     Reason:     {undef,[{lager,info,["recycle: no need~n"],[]},{mc_w_manager,handle_info,2,[{file,"src/mc/mc_w_manager.erl"},{line,106}]},{gen_server,try_dispatch,4,[{file,"gen_server.erl"},{line,593}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,659}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,237}]}]}
+     Offender:   [{pid,<0.79.0>},{name,mc_w_manager},{mfargs,{mc_w_manager,start_link,"\n"}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2015-06-24 12:38:02 =ERROR REPORT====
+** Generic server mc_w_manager terminating 
+** Last message in was recycle
+** When Server state == {state,10,{[<0.122.0>,<0.120.0>,<0.118.0>,<0.116.0>,<0.114.0>,<0.112.0>,<0.110.0>,<0.108.0>,<0.106.0>],[<0.104.0>]}}
+** Reason for termination == 
+** {'function not exported',[{lager,info,["recycle: kill ~p workers~n",[5]],[]},{mc_w_manager,handle_info,2,[{file,"src/mc/mc_w_manager.erl"},{line,97}]},{gen_server,try_dispatch,4,[{file,"gen_server.erl"},{line,593}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,659}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,237}]}]}
+2015-06-24 12:38:02 =CRASH REPORT====
+  crasher:
+    initial call: mc_w_manager:init/1
+    pid: <0.103.0>
+    registered_name: mc_w_manager
+    exception exit: {{undef,[{lager,info,["recycle: kill ~p workers~n",[5]],[]},{mc_w_manager,handle_info,2,[{file,"src/mc/mc_w_manager.erl"},{line,97}]},{gen_server,try_dispatch,4,[{file,"gen_server.erl"},{line,593}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,659}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,237}]}]},[{gen_server,terminate,7,[{file,"gen_server.erl"},{line,804}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,237}]}]}
+    ancestors: [emcp_sup,<0.37.0>]
+    messages: []
+    links: [<0.77.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 987
+    stack_size: 27
+    reductions: 319
+  neighbours:
+2015-06-24 12:38:02 =SUPERVISOR REPORT====
+     Supervisor: {local,emcp_sup}
+     Context:    child_terminated
+     Reason:     {undef,[{lager,info,["recycle: kill ~p workers~n",[5]],[]},{mc_w_manager,handle_info,2,[{file,"src/mc/mc_w_manager.erl"},{line,97}]},{gen_server,try_dispatch,4,[{file,"gen_server.erl"},{line,593}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,659}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,237}]}]}
+     Offender:   [{pid,<0.103.0>},{name,mc_w_manager},{mfargs,{mc_w_manager,start_link,"\n"}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2015-06-24 14:27:17 =SUPERVISOR REPORT====
+     Supervisor: {local,mc_w_sup}
+     Context:    child_terminated
+     Reason:     killed
+     Offender:   [{pid,<0.85.0>},{name,mc_w},{mfargs,{mc_w,start_link,undefined}},{restart_type,temporary},{shutdown,brutal_kill},{child_type,worker}]
+
+2015-06-24 14:27:17 =SUPERVISOR REPORT====
+     Supervisor: {local,mc_w_sup}
+     Context:    child_terminated
+     Reason:     killed
+     Offender:   [{pid,<0.101.0>},{name,mc_w},{mfargs,{mc_w,start_link,undefined}},{restart_type,temporary},{shutdown,brutal_kill},{child_type,worker}]
+
+2015-06-24 14:27:17 =SUPERVISOR REPORT====
+     Supervisor: {local,mc_w_sup}
+     Context:    child_terminated
+     Reason:     killed
+     Offender:   [{pid,<0.89.0>},{name,mc_w},{mfargs,{mc_w,start_link,undefined}},{restart_type,temporary},{shutdown,brutal_kill},{child_type,worker}]
+
+2015-06-24 14:27:17 =SUPERVISOR REPORT====
+     Supervisor: {local,mc_w_sup}
+     Context:    child_terminated
+     Reason:     killed
+     Offender:   [{pid,<0.91.0>},{name,mc_w},{mfargs,{mc_w,start_link,undefined}},{restart_type,temporary},{shutdown,brutal_kill},{child_type,worker}]
+
+2015-06-24 14:27:17 =SUPERVISOR REPORT====
+     Supervisor: {local,mc_w_sup}
+     Context:    child_terminated
+     Reason:     killed
+     Offender:   [{pid,<0.93.0>},{name,mc_w},{mfargs,{mc_w,start_link,undefined}},{restart_type,temporary},{shutdown,brutal_kill},{child_type,worker}]
+
+2015-06-24 14:27:17 =SUPERVISOR REPORT====
+     Supervisor: {local,mc_w_sup}
+     Context:    child_terminated
+     Reason:     killed
+     Offender:   [{pid,<0.95.0>},{name,mc_w},{mfargs,{mc_w,start_link,undefined}},{restart_type,temporary},{shutdown,brutal_kill},{child_type,worker}]
+
+2015-06-24 14:27:17 =SUPERVISOR REPORT====
+     Supervisor: {local,mc_w_sup}
+     Context:    child_terminated
+     Reason:     killed
+     Offender:   [{pid,<0.97.0>},{name,mc_w},{mfargs,{mc_w,start_link,undefined}},{restart_type,temporary},{shutdown,brutal_kill},{child_type,worker}]
+
+2015-06-24 14:27:17 =SUPERVISOR REPORT====
+     Supervisor: {local,mc_w_sup}
+     Context:    child_terminated
+     Reason:     killed
+     Offender:   [{pid,<0.99.0>},{name,mc_w},{mfargs,{mc_w,start_link,undefined}},{restart_type,temporary},{shutdown,brutal_kill},{child_type,worker}]
+
+2015-06-24 14:27:17 =SUPERVISOR REPORT====
+     Supervisor: {local,mc_w_sup}
+     Context:    child_terminated
+     Reason:     killed
+     Offender:   [{pid,<0.103.0>},{name,mc_w},{mfargs,{mc_w,start_link,undefined}},{restart_type,temporary},{shutdown,brutal_kill},{child_type,worker}]
+
+2015-06-24 14:27:17 =SUPERVISOR REPORT====
+     Supervisor: {local,mc_w_sup}
+     Context:    child_terminated
+     Reason:     killed
+     Offender:   [{pid,<0.105.0>},{name,mc_w},{mfargs,{mc_w,start_link,undefined}},{restart_type,temporary},{shutdown,brutal_kill},{child_type,worker}]
+
+2015-06-24 14:27:17 =SUPERVISOR REPORT====
+     Supervisor: {local,mc_w_sup}
+     Context:    child_terminated
+     Reason:     killed
+     Offender:   [{pid,<0.320.0>},{name,mc_w},{mfargs,{mc_w,start_link,undefined}},{restart_type,temporary},{shutdown,brutal_kill},{child_type,worker}]
+
+2015-06-24 14:27:17 =SUPERVISOR REPORT====
+     Supervisor: {local,mc_w_sup}
+     Context:    child_terminated
+     Reason:     killed
+     Offender:   [{pid,<0.326.0>},{name,mc_w},{mfargs,{mc_w,start_link,undefined}},{restart_type,temporary},{shutdown,brutal_kill},{child_type,worker}]
+
+2015-06-24 14:27:17 =SUPERVISOR REPORT====
+     Supervisor: {local,mc_w_sup}
+     Context:    child_terminated
+     Reason:     killed
+     Offender:   [{pid,<0.334.0>},{name,mc_w},{mfargs,{mc_w,start_link,undefined}},{restart_type,temporary},{shutdown,brutal_kill},{child_type,worker}]
+
+2015-06-24 14:27:17 =SUPERVISOR REPORT====
+     Supervisor: {local,mc_w_sup}
+     Context:    child_terminated
+     Reason:     killed
+     Offender:   [{pid,<0.339.0>},{name,mc_w},{mfargs,{mc_w,start_link,undefined}},{restart_type,temporary},{shutdown,brutal_kill},{child_type,worker}]
+
+2015-06-24 14:27:17 =SUPERVISOR REPORT====
+     Supervisor: {local,mc_w_sup}
+     Context:    child_terminated
+     Reason:     killed
+     Offender:   [{pid,<0.342.0>},{name,mc_w},{mfargs,{mc_w,start_link,undefined}},{restart_type,temporary},{shutdown,brutal_kill},{child_type,worker}]
+
+2015-06-24 14:27:17 =SUPERVISOR REPORT====
+     Supervisor: {local,mc_w_sup}
+     Context:    child_terminated
+     Reason:     killed
+     Offender:   [{pid,<0.345.0>},{name,mc_w},{mfargs,{mc_w,start_link,undefined}},{restart_type,temporary},{shutdown,brutal_kill},{child_type,worker}]
+
+2015-06-24 14:27:17 =SUPERVISOR REPORT====
+     Supervisor: {local,mc_w_sup}
+     Context:    child_terminated
+     Reason:     killed
+     Offender:   [{pid,<0.348.0>},{name,mc_w},{mfargs,{mc_w,start_link,undefined}},{restart_type,temporary},{shutdown,brutal_kill},{child_type,worker}]
+
+2015-06-24 14:27:17 =SUPERVISOR REPORT====
+     Supervisor: {local,mc_w_sup}
+     Context:    child_terminated
+     Reason:     killed
+     Offender:   [{pid,<0.351.0>},{name,mc_w},{mfargs,{mc_w,start_link,undefined}},{restart_type,temporary},{shutdown,brutal_kill},{child_type,worker}]
+
+2015-06-24 14:27:17 =SUPERVISOR REPORT====
+     Supervisor: {local,mc_w_sup}
+     Context:    child_terminated
+     Reason:     killed
+     Offender:   [{pid,<0.354.0>},{name,mc_w},{mfargs,{mc_w,start_link,undefined}},{restart_type,temporary},{shutdown,brutal_kill},{child_type,worker}]
+
+2015-06-24 14:27:17 =SUPERVISOR REPORT====
+     Supervisor: {local,mc_w_sup}
+     Context:    child_terminated
+     Reason:     killed
+     Offender:   [{pid,<0.357.0>},{name,mc_w},{mfargs,{mc_w,start_link,undefined}},{restart_type,temporary},{shutdown,brutal_kill},{child_type,worker}]
+
+2015-06-24 14:27:17 =SUPERVISOR REPORT====
+     Supervisor: {local,mc_w_sup}
+     Context:    child_terminated
+     Reason:     killed
+     Offender:   [{pid,<0.360.0>},{name,mc_w},{mfargs,{mc_w,start_link,undefined}},{restart_type,temporary},{shutdown,brutal_kill},{child_type,worker}]
+
+2015-06-24 14:27:17 =SUPERVISOR REPORT====
+     Supervisor: {local,mc_w_sup}
+     Context:    child_terminated
+     Reason:     killed
+     Offender:   [{pid,<0.363.0>},{name,mc_w},{mfargs,{mc_w,start_link,undefined}},{restart_type,temporary},{shutdown,brutal_kill},{child_type,worker}]
+
+2015-06-24 14:27:17 =SUPERVISOR REPORT====
+     Supervisor: {local,mc_w_sup}
+     Context:    child_terminated
+     Reason:     killed
+     Offender:   [{pid,<0.366.0>},{name,mc_w},{mfargs,{mc_w,start_link,undefined}},{restart_type,temporary},{shutdown,brutal_kill},{child_type,worker}]
+
+2015-06-24 14:27:17 =SUPERVISOR REPORT====
+     Supervisor: {local,mc_w_sup}
+     Context:    child_terminated
+     Reason:     killed
+     Offender:   [{pid,<0.369.0>},{name,mc_w},{mfargs,{mc_w,start_link,undefined}},{restart_type,temporary},{shutdown,brutal_kill},{child_type,worker}]
+
+2015-06-24 14:27:17 =SUPERVISOR REPORT====
+     Supervisor: {local,mc_w_sup}
+     Context:    child_terminated
+     Reason:     killed
+     Offender:   [{pid,<0.372.0>},{name,mc_w},{mfargs,{mc_w,start_link,undefined}},{restart_type,temporary},{shutdown,brutal_kill},{child_type,worker}]
+
+2015-06-24 14:27:17 =SUPERVISOR REPORT====
+     Supervisor: {local,mc_w_sup}
+     Context:    child_terminated
+     Reason:     killed
+     Offender:   [{pid,<0.375.0>},{name,mc_w},{mfargs,{mc_w,start_link,undefined}},{restart_type,temporary},{shutdown,brutal_kill},{child_type,worker}]
+
+2015-06-24 14:27:17 =SUPERVISOR REPORT====
+     Supervisor: {local,mc_w_sup}
+     Context:    child_terminated
+     Reason:     killed
+     Offender:   [{pid,<0.378.0>},{name,mc_w},{mfargs,{mc_w,start_link,undefined}},{restart_type,temporary},{shutdown,brutal_kill},{child_type,worker}]
+
+2015-06-24 14:27:17 =SUPERVISOR REPORT====
+     Supervisor: {local,mc_w_sup}
+     Context:    child_terminated
+     Reason:     killed
+     Offender:   [{pid,<0.381.0>},{name,mc_w},{mfargs,{mc_w,start_link,undefined}},{restart_type,temporary},{shutdown,brutal_kill},{child_type,worker}]
+
+2015-06-24 14:27:17 =SUPERVISOR REPORT====
+     Supervisor: {local,mc_w_sup}
+     Context:    child_terminated
+     Reason:     killed
+     Offender:   [{pid,<0.384.0>},{name,mc_w},{mfargs,{mc_w,start_link,undefined}},{restart_type,temporary},{shutdown,brutal_kill},{child_type,worker}]
+
+2015-06-24 14:27:17 =SUPERVISOR REPORT====
+     Supervisor: {local,mc_w_sup}
+     Context:    child_terminated
+     Reason:     killed
+     Offender:   [{pid,<0.387.0>},{name,mc_w},{mfargs,{mc_w,start_link,undefined}},{restart_type,temporary},{shutdown,brutal_kill},{child_type,worker}]
+
+2015-06-24 14:27:17 =SUPERVISOR REPORT====
+     Supervisor: {local,mc_w_sup}
+     Context:    child_terminated
+     Reason:     killed
+     Offender:   [{pid,<0.390.0>},{name,mc_w},{mfargs,{mc_w,start_link,undefined}},{restart_type,temporary},{shutdown,brutal_kill},{child_type,worker}]
+
+2015-06-24 14:27:17 =SUPERVISOR REPORT====
+     Supervisor: {local,mc_w_sup}
+     Context:    child_terminated
+     Reason:     killed
+     Offender:   [{pid,<0.393.0>},{name,mc_w},{mfargs,{mc_w,start_link,undefined}},{restart_type,temporary},{shutdown,brutal_kill},{child_type,worker}]
+
+2015-06-24 14:27:17 =SUPERVISOR REPORT====
+     Supervisor: {local,mc_w_sup}
+     Context:    child_terminated
+     Reason:     killed
+     Offender:   [{pid,<0.396.0>},{name,mc_w},{mfargs,{mc_w,start_link,undefined}},{restart_type,temporary},{shutdown,brutal_kill},{child_type,worker}]
+
+2015-06-24 14:27:17 =SUPERVISOR REPORT====
+     Supervisor: {local,mc_w_sup}
+     Context:    child_terminated
+     Reason:     killed
+     Offender:   [{pid,<0.399.0>},{name,mc_w},{mfargs,{mc_w,start_link,undefined}},{restart_type,temporary},{shutdown,brutal_kill},{child_type,worker}]
+
+2015-06-24 14:27:17 =SUPERVISOR REPORT====
+     Supervisor: {local,mc_w_sup}
+     Context:    child_terminated
+     Reason:     killed
+     Offender:   [{pid,<0.402.0>},{name,mc_w},{mfargs,{mc_w,start_link,undefined}},{restart_type,temporary},{shutdown,brutal_kill},{child_type,worker}]
+
+2015-06-24 14:27:17 =SUPERVISOR REPORT====
+     Supervisor: {local,mc_w_sup}
+     Context:    child_terminated
+     Reason:     killed
+     Offender:   [{pid,<0.405.0>},{name,mc_w},{mfargs,{mc_w,start_link,undefined}},{restart_type,temporary},{shutdown,brutal_kill},{child_type,worker}]
+
+2015-06-24 14:27:17 =SUPERVISOR REPORT====
+     Supervisor: {local,mc_w_sup}
+     Context:    child_terminated
+     Reason:     killed
+     Offender:   [{pid,<0.408.0>},{name,mc_w},{mfargs,{mc_w,start_link,undefined}},{restart_type,temporary},{shutdown,brutal_kill},{child_type,worker}]
+
+2015-06-24 14:27:17 =SUPERVISOR REPORT====
+     Supervisor: {local,mc_w_sup}
+     Context:    child_terminated
+     Reason:     killed
+     Offender:   [{pid,<0.411.0>},{name,mc_w},{mfargs,{mc_w,start_link,undefined}},{restart_type,temporary},{shutdown,brutal_kill},{child_type,worker}]
+
+2015-06-24 14:27:17 =SUPERVISOR REPORT====
+     Supervisor: {local,mc_w_sup}
+     Context:    child_terminated
+     Reason:     killed
+     Offender:   [{pid,<0.414.0>},{name,mc_w},{mfargs,{mc_w,start_link,undefined}},{restart_type,temporary},{shutdown,brutal_kill},{child_type,worker}]
+
+2015-06-24 14:27:17 =SUPERVISOR REPORT====
+     Supervisor: {local,mc_w_sup}
+     Context:    child_terminated
+     Reason:     killed
+     Offender:   [{pid,<0.417.0>},{name,mc_w},{mfargs,{mc_w,start_link,undefined}},{restart_type,temporary},{shutdown,brutal_kill},{child_type,worker}]
+
+2015-06-24 14:27:17 =SUPERVISOR REPORT====
+     Supervisor: {local,mc_w_sup}
+     Context:    child_terminated
+     Reason:     killed
+     Offender:   [{pid,<0.420.0>},{name,mc_w},{mfargs,{mc_w,start_link,undefined}},{restart_type,temporary},{shutdown,brutal_kill},{child_type,worker}]
+
+2015-06-24 14:27:17 =SUPERVISOR REPORT====
+     Supervisor: {local,mc_w_sup}
+     Context:    child_terminated
+     Reason:     killed
+     Offender:   [{pid,<0.423.0>},{name,mc_w},{mfargs,{mc_w,start_link,undefined}},{restart_type,temporary},{shutdown,brutal_kill},{child_type,worker}]
+
+2015-06-24 14:27:17 =SUPERVISOR REPORT====
+     Supervisor: {local,mc_w_sup}
+     Context:    child_terminated
+     Reason:     killed
+     Offender:   [{pid,<0.426.0>},{name,mc_w},{mfargs,{mc_w,start_link,undefined}},{restart_type,temporary},{shutdown,brutal_kill},{child_type,worker}]
+
+2015-06-24 14:27:17 =SUPERVISOR REPORT====
+     Supervisor: {local,mc_w_sup}
+     Context:    child_terminated
+     Reason:     killed
+     Offender:   [{pid,<0.429.0>},{name,mc_w},{mfargs,{mc_w,start_link,undefined}},{restart_type,temporary},{shutdown,brutal_kill},{child_type,worker}]
+
+2015-06-24 14:27:17 =SUPERVISOR REPORT====
+     Supervisor: {local,mc_w_sup}
+     Context:    child_terminated
+     Reason:     killed
+     Offender:   [{pid,<0.432.0>},{name,mc_w},{mfargs,{mc_w,start_link,undefined}},{restart_type,temporary},{shutdown,brutal_kill},{child_type,worker}]
+
+2015-06-24 14:27:17 =SUPERVISOR REPORT====
+     Supervisor: {local,mc_w_sup}
+     Context:    child_terminated
+     Reason:     killed
+     Offender:   [{pid,<0.435.0>},{name,mc_w},{mfargs,{mc_w,start_link,undefined}},{restart_type,temporary},{shutdown,brutal_kill},{child_type,worker}]
+
+2015-06-24 14:27:17 =SUPERVISOR REPORT====
+     Supervisor: {local,mc_w_sup}
+     Context:    child_terminated
+     Reason:     killed
+     Offender:   [{pid,<0.438.0>},{name,mc_w},{mfargs,{mc_w,start_link,undefined}},{restart_type,temporary},{shutdown,brutal_kill},{child_type,worker}]
+
+2015-06-24 14:27:17 =SUPERVISOR REPORT====
+     Supervisor: {local,mc_w_sup}
+     Context:    child_terminated
+     Reason:     killed
+     Offender:   [{pid,<0.441.0>},{name,mc_w},{mfargs,{mc_w,start_link,undefined}},{restart_type,temporary},{shutdown,brutal_kill},{child_type,worker}]
+
+2015-06-24 14:27:17 =SUPERVISOR REPORT====
+     Supervisor: {local,mc_w_sup}
+     Context:    child_terminated
+     Reason:     killed
+     Offender:   [{pid,<0.444.0>},{name,mc_w},{mfargs,{mc_w,start_link,undefined}},{restart_type,temporary},{shutdown,brutal_kill},{child_type,worker}]
+
+2015-06-24 14:27:17 =SUPERVISOR REPORT====
+     Supervisor: {local,mc_w_sup}
+     Context:    child_terminated
+     Reason:     killed
+     Offender:   [{pid,<0.447.0>},{name,mc_w},{mfargs,{mc_w,start_link,undefined}},{restart_type,temporary},{shutdown,brutal_kill},{child_type,worker}]
+
+2015-06-24 14:27:17 =SUPERVISOR REPORT====
+     Supervisor: {local,mc_w_sup}
+     Context:    child_terminated
+     Reason:     killed
+     Offender:   [{pid,<0.450.0>},{name,mc_w},{mfargs,{mc_w,start_link,undefined}},{restart_type,temporary},{shutdown,brutal_kill},{child_type,worker}]
+
+2015-06-24 14:27:17 =SUPERVISOR REPORT====
+     Supervisor: {local,mc_w_sup}
+     Context:    child_terminated
+     Reason:     killed
+     Offender:   [{pid,<0.453.0>},{name,mc_w},{mfargs,{mc_w,start_link,undefined}},{restart_type,temporary},{shutdown,brutal_kill},{child_type,worker}]
+
+2015-06-24 14:27:17 =SUPERVISOR REPORT====
+     Supervisor: {local,mc_w_sup}
+     Context:    child_terminated
+     Reason:     killed
+     Offender:   [{pid,<0.456.0>},{name,mc_w},{mfargs,{mc_w,start_link,undefined}},{restart_type,temporary},{shutdown,brutal_kill},{child_type,worker}]
+
+2015-06-24 14:27:17 =SUPERVISOR REPORT====
+     Supervisor: {local,mc_w_sup}
+     Context:    child_terminated
+     Reason:     killed
+     Offender:   [{pid,<0.459.0>},{name,mc_w},{mfargs,{mc_w,start_link,undefined}},{restart_type,temporary},{shutdown,brutal_kill},{child_type,worker}]
+
+2015-06-24 14:27:17 =SUPERVISOR REPORT====
+     Supervisor: {local,mc_w_sup}
+     Context:    child_terminated
+     Reason:     killed
+     Offender:   [{pid,<0.462.0>},{name,mc_w},{mfargs,{mc_w,start_link,undefined}},{restart_type,temporary},{shutdown,brutal_kill},{child_type,worker}]
+
+2015-06-24 14:27:17 =SUPERVISOR REPORT====
+     Supervisor: {local,mc_w_sup}
+     Context:    child_terminated
+     Reason:     killed
+     Offender:   [{pid,<0.465.0>},{name,mc_w},{mfargs,{mc_w,start_link,undefined}},{restart_type,temporary},{shutdown,brutal_kill},{child_type,worker}]
+
+2015-06-24 14:27:17 =SUPERVISOR REPORT====
+     Supervisor: {local,mc_w_sup}
+     Context:    child_terminated
+     Reason:     killed
+     Offender:   [{pid,<0.468.0>},{name,mc_w},{mfargs,{mc_w,start_link,undefined}},{restart_type,temporary},{shutdown,brutal_kill},{child_type,worker}]
+
+2015-06-24 14:27:17 =SUPERVISOR REPORT====
+     Supervisor: {local,mc_w_sup}
+     Context:    child_terminated
+     Reason:     killed
+     Offender:   [{pid,<0.471.0>},{name,mc_w},{mfargs,{mc_w,start_link,undefined}},{restart_type,temporary},{shutdown,brutal_kill},{child_type,worker}]
+
+2015-06-24 14:27:17 =SUPERVISOR REPORT====
+     Supervisor: {local,mc_w_sup}
+     Context:    child_terminated
+     Reason:     killed
+     Offender:   [{pid,<0.474.0>},{name,mc_w},{mfargs,{mc_w,start_link,undefined}},{restart_type,temporary},{shutdown,brutal_kill},{child_type,worker}]
+
+2015-06-24 14:27:17 =SUPERVISOR REPORT====
+     Supervisor: {local,mc_w_sup}
+     Context:    child_terminated
+     Reason:     killed
+     Offender:   [{pid,<0.477.0>},{name,mc_w},{mfargs,{mc_w,start_link,undefined}},{restart_type,temporary},{shutdown,brutal_kill},{child_type,worker}]
+
+2015-06-24 14:27:17 =SUPERVISOR REPORT====
+     Supervisor: {local,mc_w_sup}
+     Context:    child_terminated
+     Reason:     killed
+     Offender:   [{pid,<0.480.0>},{name,mc_w},{mfargs,{mc_w,start_link,undefined}},{restart_type,temporary},{shutdown,brutal_kill},{child_type,worker}]
+
+2015-06-24 14:27:17 =SUPERVISOR REPORT====
+     Supervisor: {local,mc_w_sup}
+     Context:    child_terminated
+     Reason:     killed
+     Offender:   [{pid,<0.483.0>},{name,mc_w},{mfargs,{mc_w,start_link,undefined}},{restart_type,temporary},{shutdown,brutal_kill},{child_type,worker}]
+
+2015-06-24 14:27:17 =SUPERVISOR REPORT====
+     Supervisor: {local,mc_w_sup}
+     Context:    child_terminated
+     Reason:     killed
+     Offender:   [{pid,<0.486.0>},{name,mc_w},{mfargs,{mc_w,start_link,undefined}},{restart_type,temporary},{shutdown,brutal_kill},{child_type,worker}]
+
+2015-06-24 14:27:17 =SUPERVISOR REPORT====
+     Supervisor: {local,mc_w_sup}
+     Context:    child_terminated
+     Reason:     killed
+     Offender:   [{pid,<0.489.0>},{name,mc_w},{mfargs,{mc_w,start_link,undefined}},{restart_type,temporary},{shutdown,brutal_kill},{child_type,worker}]
+
+2015-06-24 14:27:17 =SUPERVISOR REPORT====
+     Supervisor: {local,mc_w_sup}
+     Context:    child_terminated
+     Reason:     killed
+     Offender:   [{pid,<0.492.0>},{name,mc_w},{mfargs,{mc_w,start_link,undefined}},{restart_type,temporary},{shutdown,brutal_kill},{child_type,worker}]
+
+2015-06-24 14:27:17 =SUPERVISOR REPORT====
+     Supervisor: {local,mc_w_sup}
+     Context:    child_terminated
+     Reason:     killed
+     Offender:   [{pid,<0.495.0>},{name,mc_w},{mfargs,{mc_w,start_link,undefined}},{restart_type,temporary},{shutdown,brutal_kill},{child_type,worker}]
+
+2015-06-24 14:27:17 =SUPERVISOR REPORT====
+     Supervisor: {local,mc_w_sup}
+     Context:    child_terminated
+     Reason:     killed
+     Offender:   [{pid,<0.498.0>},{name,mc_w},{mfargs,{mc_w,start_link,undefined}},{restart_type,temporary},{shutdown,brutal_kill},{child_type,worker}]
+
+2015-06-24 14:27:17 =SUPERVISOR REPORT====
+     Supervisor: {local,mc_w_sup}
+     Context:    child_terminated
+     Reason:     killed
+     Offender:   [{pid,<0.501.0>},{name,mc_w},{mfargs,{mc_w,start_link,undefined}},{restart_type,temporary},{shutdown,brutal_kill},{child_type,worker}]
+
+2015-06-24 14:27:17 =SUPERVISOR REPORT====
+     Supervisor: {local,mc_w_sup}
+     Context:    child_terminated
+     Reason:     killed
+     Offender:   [{pid,<0.504.0>},{name,mc_w},{mfargs,{mc_w,start_link,undefined}},{restart_type,temporary},{shutdown,brutal_kill},{child_type,worker}]
+
+2015-06-24 14:27:17 =SUPERVISOR REPORT====
+     Supervisor: {local,mc_w_sup}
+     Context:    child_terminated
+     Reason:     killed
+     Offender:   [{pid,<0.507.0>},{name,mc_w},{mfargs,{mc_w,start_link,undefined}},{restart_type,temporary},{shutdown,brutal_kill},{child_type,worker}]
+
+2015-06-24 14:27:17 =SUPERVISOR REPORT====
+     Supervisor: {local,mc_w_sup}
+     Context:    child_terminated
+     Reason:     killed
+     Offender:   [{pid,<0.510.0>},{name,mc_w},{mfargs,{mc_w,start_link,undefined}},{restart_type,temporary},{shutdown,brutal_kill},{child_type,worker}]
+
+2015-06-24 14:27:17 =SUPERVISOR REPORT====
+     Supervisor: {local,mc_w_sup}
+     Context:    child_terminated
+     Reason:     killed
+     Offender:   [{pid,<0.513.0>},{name,mc_w},{mfargs,{mc_w,start_link,undefined}},{restart_type,temporary},{shutdown,brutal_kill},{child_type,worker}]
+
+2015-06-24 14:27:17 =SUPERVISOR REPORT====
+     Supervisor: {local,mc_w_sup}
+     Context:    child_terminated
+     Reason:     killed
+     Offender:   [{pid,<0.516.0>},{name,mc_w},{mfargs,{mc_w,start_link,undefined}},{restart_type,temporary},{shutdown,brutal_kill},{child_type,worker}]
+
+2015-06-24 14:27:17 =SUPERVISOR REPORT====
+     Supervisor: {local,mc_w_sup}
+     Context:    child_terminated
+     Reason:     killed
+     Offender:   [{pid,<0.519.0>},{name,mc_w},{mfargs,{mc_w,start_link,undefined}},{restart_type,temporary},{shutdown,brutal_kill},{child_type,worker}]
+
+2015-06-24 14:27:17 =SUPERVISOR REPORT====
+     Supervisor: {local,mc_w_sup}
+     Context:    child_terminated
+     Reason:     killed
+     Offender:   [{pid,<0.522.0>},{name,mc_w},{mfargs,{mc_w,start_link,undefined}},{restart_type,temporary},{shutdown,brutal_kill},{child_type,worker}]
+
+2015-06-24 14:27:17 =SUPERVISOR REPORT====
+     Supervisor: {local,mc_w_sup}
+     Context:    child_terminated
+     Reason:     killed
+     Offender:   [{pid,<0.525.0>},{name,mc_w},{mfargs,{mc_w,start_link,undefined}},{restart_type,temporary},{shutdown,brutal_kill},{child_type,worker}]
+
+2015-06-24 14:27:17 =SUPERVISOR REPORT====
+     Supervisor: {local,mc_w_sup}
+     Context:    child_terminated
+     Reason:     killed
+     Offender:   [{pid,<0.528.0>},{name,mc_w},{mfargs,{mc_w,start_link,undefined}},{restart_type,temporary},{shutdown,brutal_kill},{child_type,worker}]
+
+2015-06-24 14:27:17 =SUPERVISOR REPORT====
+     Supervisor: {local,mc_w_sup}
+     Context:    child_terminated
+     Reason:     killed
+     Offender:   [{pid,<0.531.0>},{name,mc_w},{mfargs,{mc_w,start_link,undefined}},{restart_type,temporary},{shutdown,brutal_kill},{child_type,worker}]
+
+2015-06-24 14:27:17 =SUPERVISOR REPORT====
+     Supervisor: {local,mc_w_sup}
+     Context:    child_terminated
+     Reason:     killed
+     Offender:   [{pid,<0.534.0>},{name,mc_w},{mfargs,{mc_w,start_link,undefined}},{restart_type,temporary},{shutdown,brutal_kill},{child_type,worker}]
+
+2015-06-24 14:27:17 =SUPERVISOR REPORT====
+     Supervisor: {local,mc_w_sup}
+     Context:    child_terminated
+     Reason:     killed
+     Offender:   [{pid,<0.537.0>},{name,mc_w},{mfargs,{mc_w,start_link,undefined}},{restart_type,temporary},{shutdown,brutal_kill},{child_type,worker}]
+
+2015-06-24 14:27:17 =SUPERVISOR REPORT====
+     Supervisor: {local,mc_w_sup}
+     Context:    child_terminated
+     Reason:     killed
+     Offender:   [{pid,<0.540.0>},{name,mc_w},{mfargs,{mc_w,start_link,undefined}},{restart_type,temporary},{shutdown,brutal_kill},{child_type,worker}]
+
+2015-06-24 14:27:17 =SUPERVISOR REPORT====
+     Supervisor: {local,mc_w_sup}
+     Context:    child_terminated
+     Reason:     killed
+     Offender:   [{pid,<0.543.0>},{name,mc_w},{mfargs,{mc_w,start_link,undefined}},{restart_type,temporary},{shutdown,brutal_kill},{child_type,worker}]
+
+2015-06-24 14:27:17 =SUPERVISOR REPORT====
+     Supervisor: {local,mc_w_sup}
+     Context:    child_terminated
+     Reason:     killed
+     Offender:   [{pid,<0.546.0>},{name,mc_w},{mfargs,{mc_w,start_link,undefined}},{restart_type,temporary},{shutdown,brutal_kill},{child_type,worker}]
+
+2015-06-24 14:27:17 =SUPERVISOR REPORT====
+     Supervisor: {local,mc_w_sup}
+     Context:    child_terminated
+     Reason:     killed
+     Offender:   [{pid,<0.549.0>},{name,mc_w},{mfargs,{mc_w,start_link,undefined}},{restart_type,temporary},{shutdown,brutal_kill},{child_type,worker}]
+
+2015-06-24 14:27:17 =SUPERVISOR REPORT====
+     Supervisor: {local,mc_w_sup}
+     Context:    child_terminated
+     Reason:     killed
+     Offender:   [{pid,<0.552.0>},{name,mc_w},{mfargs,{mc_w,start_link,undefined}},{restart_type,temporary},{shutdown,brutal_kill},{child_type,worker}]
+
+2015-06-24 14:33:57 =SUPERVISOR REPORT====
+     Supervisor: {local,mc_w_sup}
+     Context:    child_terminated
+     Reason:     killed
+     Offender:   [{pid,<0.585.0>},{name,mc_w},{mfargs,{mc_w,start_link,undefined}},{restart_type,temporary},{shutdown,brutal_kill},{child_type,worker}]
+
+2015-06-24 14:33:57 =SUPERVISOR REPORT====
+     Supervisor: {local,mc_w_sup}
+     Context:    child_terminated
+     Reason:     killed
+     Offender:   [{pid,<0.588.0>},{name,mc_w},{mfargs,{mc_w,start_link,undefined}},{restart_type,temporary},{shutdown,brutal_kill},{child_type,worker}]
+
+2015-06-24 14:33:57 =SUPERVISOR REPORT====
+     Supervisor: {local,mc_w_sup}
+     Context:    child_terminated
+     Reason:     killed
+     Offender:   [{pid,<0.591.0>},{name,mc_w},{mfargs,{mc_w,start_link,undefined}},{restart_type,temporary},{shutdown,brutal_kill},{child_type,worker}]
+
+2015-06-24 14:33:57 =SUPERVISOR REPORT====
+     Supervisor: {local,mc_w_sup}
+     Context:    child_terminated
+     Reason:     killed
+     Offender:   [{pid,<0.594.0>},{name,mc_w},{mfargs,{mc_w,start_link,undefined}},{restart_type,temporary},{shutdown,brutal_kill},{child_type,worker}]
+
+2015-06-24 14:33:57 =SUPERVISOR REPORT====
+     Supervisor: {local,mc_w_sup}
+     Context:    child_terminated
+     Reason:     killed
+     Offender:   [{pid,<0.597.0>},{name,mc_w},{mfargs,{mc_w,start_link,undefined}},{restart_type,temporary},{shutdown,brutal_kill},{child_type,worker}]
+
+2015-06-24 19:21:47 =CRASH REPORT====
+  crasher:
+    initial call: mc_cp:init/1
+    pid: <0.78.0>
+    registered_name: []
+    exception exit: {{undef,[{emcp_config,max_conn,[],[]},{mc_cp,init,1,[{file,"src/mc_cp.erl"},{line,42}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,306}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,237}]}]},[{gen_server,init_it,6,[{file,"gen_server.erl"},{line,330}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,237}]}]}
+    ancestors: [emcp_sup,<0.37.0>]
+    messages: []
+    links: [<0.77.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 610
+    stack_size: 27
+    reductions: 131
+  neighbours:
+2015-06-24 19:21:47 =SUPERVISOR REPORT====
+     Supervisor: {local,emcp_sup}
+     Context:    start_error
+     Reason:     {undef,[{emcp_config,max_conn,[],[]},{mc_cp,init,1,[{file,"src/mc_cp.erl"},{line,42}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,306}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,237}]}]}
+     Offender:   [{pid,undefined},{name,mc_cp},{mfargs,{mc_cp,start_link,[]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2015-06-24 19:21:47 =CRASH REPORT====
+  crasher:
+    initial call: application_master:init/4
+    pid: <0.36.0>
+    registered_name: []
+    exception exit: {{{shutdown,{failed_to_start_child,mc_cp,{undef,[{emcp_config,max_conn,[],[]},{mc_cp,init,1,[{file,"src/mc_cp.erl"},{line,42}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,306}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,237}]}]}}},{emcp_app,start,[normal,[]]}},[{application_master,init,4,[{file,"application_master.erl"},{line,133}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,237}]}]}
+    ancestors: [<0.35.0>]
+    messages: [{'EXIT',<0.37.0>,normal}]
+    links: [<0.35.0>,<0.7.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 610
+    stack_size: 27
+    reductions: 118
+  neighbours:
+2015-06-24 19:24:18 =CRASH REPORT====
+  crasher:
+    initial call: mc_w:init/1
+    pid: <0.93.0>
+    registered_name: []
+    exception exit: {{{badmatch,nomatch},[{mc_cp,get_conn,0,[{file,"src/mc_cp.erl"},{line,30}]},{mc_w,init,1,[{file,"src/mc_w.erl"},{line,44}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,306}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,237}]}]},[{gen_server,init_it,6,[{file,"gen_server.erl"},{line,330}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,237}]}]}
+    ancestors: [mc_w_sup,emcp_sup,<0.37.0>]
+    messages: []
+    links: [<0.91.0>]
+    dictionary: [{random_seed,{1287,148,18901}}]
+    trap_exit: false
+    status: running
+    heap_size: 610
+    stack_size: 27
+    reductions: 145
+  neighbours:
+2015-06-24 19:24:18 =SUPERVISOR REPORT====
+     Supervisor: {local,mc_w_sup}
+     Context:    child_terminated
+     Reason:     {{badmatch,nomatch},[{mc_cp,get_conn,0,[{file,"src/mc_cp.erl"},{line,30}]},{mc_w,init,1,[{file,"src/mc_w.erl"},{line,44}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,306}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,237}]}]}
+     Offender:   [{pid,<0.93.0>},{name,mc_w},{mfargs,{mc_w,start_link,undefined}},{restart_type,temporary},{shutdown,brutal_kill},{child_type,worker}]
+
+2015-06-24 19:24:18 =CRASH REPORT====
+  crasher:
+    initial call: mc_w_manager:init/1
+    pid: <0.92.0>
+    registered_name: []
+    exception exit: {{{badmatch,{error,{{badmatch,nomatch},[{mc_cp,get_conn,0,[{file,"src/mc_cp.erl"},{line,30}]},{mc_w,init,1,[{file,"src/mc_w.erl"},{line,44}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,306}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,237}]}]}}},[{mc_w_manager,loop_start_workers,2,[{file,"src/mc_w_manager.erl"},{line,144}]},{mc_w_manager,init,1,[{file,"src/mc_w_manager.erl"},{line,51}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,306}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,237}]}]},[{gen_server,init_it,6,[{file,"gen_server.erl"},{line,330}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,237}]}]}
+    ancestors: [emcp_sup,<0.37.0>]
+    messages: []
+    links: [<0.77.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 987
+    stack_size: 27
+    reductions: 190
+  neighbours:
+2015-06-24 19:24:18 =SUPERVISOR REPORT====
+     Supervisor: {local,emcp_sup}
+     Context:    start_error
+     Reason:     {{badmatch,{error,{{badmatch,nomatch},[{mc_cp,get_conn,0,[{file,"src/mc_cp.erl"},{line,30}]},{mc_w,init,1,[{file,"src/mc_w.erl"},{line,44}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,306}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,237}]}]}}},[{mc_w_manager,loop_start_workers,2,[{file,"src/mc_w_manager.erl"},{line,144}]},{mc_w_manager,init,1,[{file,"src/mc_w_manager.erl"},{line,51}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,306}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,237}]}]}
+     Offender:   [{pid,undefined},{name,mc_w_manager},{mfargs,{mc_w_manager,start_link,[]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2015-06-24 19:24:18 =CRASH REPORT====
+  crasher:
+    initial call: application_master:init/4
+    pid: <0.36.0>
+    registered_name: []
+    exception exit: {{{shutdown,{failed_to_start_child,mc_w_manager,{{badmatch,{error,{{badmatch,nomatch},[{mc_cp,get_conn,0,[{file,"src/mc_cp.erl"},{line,30}]},{mc_w,init,1,[{file,"src/mc_w.erl"},{line,44}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,306}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,237}]}]}}},[{mc_w_manager,loop_start_workers,2,[{file,"src/mc_w_manager.erl"},{line,144}]},{mc_w_manager,init,1,[{file,"src/mc_w_manager.erl"},{line,51}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,306}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,237}]}]}}},{emcp_app,start,[normal,[]]}},[{application_master,init,4,[{file,"application_master.erl"},{line,133}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,237}]}]}
+    ancestors: [<0.35.0>]
+    messages: [{'EXIT',<0.37.0>,normal}]
+    links: [<0.35.0>,<0.7.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 987
+    stack_size: 27
+    reductions: 142
+  neighbours:
+2015-06-24 19:25:26 =ERROR REPORT====
+** Generic server <0.93.0> terminating 
+** Last message in was {find,<<"likes">>,{like_to,<<"1069601">>},{<<"author.uid">>,true}}
+** When Server state == {state,{ok,<0.84.0>}}
+** Reason for termination == 
+** {{{function_clause,[{gen,call,[{ok,<0.84.0>},'$gen_call',{query,false,false,false,false,<<"likes">>,0,0,{like_to,<<"1069601">>},{<<"author.uid">>,true}},infinity],[{file,"gen.erl"},{line,149}]},{gen_server,call,3,[{file,"gen_server.erl"},{line,186}]},{mc_connection_man,request_async,2,[{file,"src/connection/mc_connection_man.erl"},{line,23}]},{mc_action_man,read,2,[{file,"src/core/mc_action_man.erl"},{line,18}]},{mc_w,get_data,4,[{file,"src/mc_w.erl"},{line,110}]},{mc_w,handle_call,3,[{file,"src/mc_w.erl"},{line,53}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,607}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,639}]}]},{gen_server,call,[{ok,<0.84.0>},{query,false,false,false,false,<<"likes">>,0,0,{like_to,<<"1069601">>},{<<"author.uid">>,true}},infinity]}},[{gen_server,call,3,[{file,"gen_server.erl"},{line,190}]},{mc_connection_man,request_async,2,[{file,"src/connection/mc_connection_man.erl"},{line,23}]},{mc_action_man,read,2,[{file,"src/core/mc_action_man.erl"},{line,18}]},{mc_w,get_data,4,[{file,"src/mc_w.erl"},{line,110}]},{mc_w,handle_call,3,[{file,"src/mc_w.erl"},{line,53}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,607}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,639}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,237}]}]}
+2015-06-24 19:25:26 =CRASH REPORT====
+  crasher:
+    initial call: mc_w:init/1
+    pid: <0.93.0>
+    registered_name: []
+    exception exit: {{{function_clause,[{gen,call,[{ok,<0.84.0>},'$gen_call',{query,false,false,false,false,<<"likes">>,0,0,{like_to,<<"1069601">>},{<<"author.uid">>,true}},infinity],[{file,"gen.erl"},{line,149}]},{gen_server,call,3,[{file,"gen_server.erl"},{line,186}]},{mc_connection_man,request_async,2,[{file,"src/connection/mc_connection_man.erl"},{line,23}]},{mc_action_man,read,2,[{file,"src/core/mc_action_man.erl"},{line,18}]},{mc_w,get_data,4,[{file,"src/mc_w.erl"},{line,110}]},{mc_w,handle_call,3,[{file,"src/mc_w.erl"},{line,53}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,607}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,639}]}]},{gen_server,call,[{ok,<0.84.0>},{query,false,false,false,false,<<"likes">>,0,0,{like_to,<<"1069601">>},{<<"author.uid">>,true}},infinity]}},[{gen_server,terminate,7,[{file,"gen_server.erl"},{line,804}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,237}]}]}
+    ancestors: [mc_w_sup,emcp_sup,<0.37.0>]
+    messages: []
+    links: [<0.91.0>]
+    dictionary: [{random_seed,{30029,15767,5245}}]
+    trap_exit: false
+    status: running
+    heap_size: 1598
+    stack_size: 27
+    reductions: 807
+  neighbours:
+2015-06-24 19:25:26 =SUPERVISOR REPORT====
+     Supervisor: {local,mc_w_sup}
+     Context:    child_terminated
+     Reason:     {{function_clause,[{gen,call,[{ok,<0.84.0>},'$gen_call',{query,false,false,false,false,<<"likes">>,0,0,{like_to,<<"1069601">>},{<<"author.uid">>,true}},infinity],[{file,"gen.erl"},{line,149}]},{gen_server,call,3,[{file,"gen_server.erl"},{line,186}]},{mc_connection_man,request_async,2,[{file,"src/connection/mc_connection_man.erl"},{line,23}]},{mc_action_man,read,2,[{file,"src/core/mc_action_man.erl"},{line,18}]},{mc_w,get_data,4,[{file,"src/mc_w.erl"},{line,110}]},{mc_w,handle_call,3,[{file,"src/mc_w.erl"},{line,53}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,607}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,639}]}]},{gen_server,call,[{ok,<0.84.0>},{query,false,false,false,false,<<"likes">>,0,0,{like_to,<<"1069601">>},{<<"author.uid">>,true}},infinity]}}
+     Offender:   [{pid,<0.93.0>},{name,mc_w},{mfargs,{mc_w,start_link,undefined}},{restart_type,temporary},{shutdown,brutal_kill},{child_type,worker}]
+
+2015-06-24 20:17:25 =ERROR REPORT====
+** Generic server <0.93.0> terminating 
+** Last message in was {find,<<"likes">>,{like_to,<<"1069601">>},{<<"author.uid">>,true}}
+** When Server state == {state,{ok,<0.88.0>}}
+** Reason for termination == 
+** {{{function_clause,[{gen,call,[{ok,<0.84.0>},'$gen_call',{query,false,false,false,false,<<"likes">>,0,0,{like_to,<<"1069601">>},{<<"author.uid">>,true}},infinity],[{file,"gen.erl"},{line,149}]},{gen_server,call,3,[{file,"gen_server.erl"},{line,186}]},{mc_connection_man,request_async,2,[{file,"src/connection/mc_connection_man.erl"},{line,23}]},{mc_action_man,read,2,[{file,"src/core/mc_action_man.erl"},{line,18}]},{mc_w,get_data,4,[{file,"src/mc_w.erl"},{line,110}]},{mc_w,handle_call,3,[{file,"src/mc_w.erl"},{line,53}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,607}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,639}]}]},{gen_server,call,[{ok,<0.84.0>},{query,false,false,false,false,<<"likes">>,0,0,{like_to,<<"1069601">>},{<<"author.uid">>,true}},infinity]}},[{gen_server,call,3,[{file,"gen_server.erl"},{line,190}]},{mc_connection_man,request_async,2,[{file,"src/connection/mc_connection_man.erl"},{line,23}]},{mc_action_man,read,2,[{file,"src/core/mc_action_man.erl"},{line,18}]},{mc_w,get_data,4,[{file,"src/mc_w.erl"},{line,110}]},{mc_w,handle_call,3,[{file,"src/mc_w.erl"},{line,53}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,607}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,639}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,237}]}]}
+2015-06-24 20:17:25 =CRASH REPORT====
+  crasher:
+    initial call: mc_w:init/1
+    pid: <0.93.0>
+    registered_name: []
+    exception exit: {{{function_clause,[{gen,call,[{ok,<0.84.0>},'$gen_call',{query,false,false,false,false,<<"likes">>,0,0,{like_to,<<"1069601">>},{<<"author.uid">>,true}},infinity],[{file,"gen.erl"},{line,149}]},{gen_server,call,3,[{file,"gen_server.erl"},{line,186}]},{mc_connection_man,request_async,2,[{file,"src/connection/mc_connection_man.erl"},{line,23}]},{mc_action_man,read,2,[{file,"src/core/mc_action_man.erl"},{line,18}]},{mc_w,get_data,4,[{file,"src/mc_w.erl"},{line,110}]},{mc_w,handle_call,3,[{file,"src/mc_w.erl"},{line,53}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,607}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,639}]}]},{gen_server,call,[{ok,<0.84.0>},{query,false,false,false,false,<<"likes">>,0,0,{like_to,<<"1069601">>},{<<"author.uid">>,true}},infinity]}},[{gen_server,terminate,7,[{file,"gen_server.erl"},{line,804}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,237}]}]}
+    ancestors: [mc_w_sup,emcp_sup,<0.37.0>]
+    messages: []
+    links: [<0.91.0>]
+    dictionary: [{random_seed,{28809,2182,18853}}]
+    trap_exit: false
+    status: running
+    heap_size: 1598
+    stack_size: 27
+    reductions: 807
+  neighbours:
+2015-06-24 20:17:25 =SUPERVISOR REPORT====
+     Supervisor: {local,mc_w_sup}
+     Context:    child_terminated
+     Reason:     {{function_clause,[{gen,call,[{ok,<0.84.0>},'$gen_call',{query,false,false,false,false,<<"likes">>,0,0,{like_to,<<"1069601">>},{<<"author.uid">>,true}},infinity],[{file,"gen.erl"},{line,149}]},{gen_server,call,3,[{file,"gen_server.erl"},{line,186}]},{mc_connection_man,request_async,2,[{file,"src/connection/mc_connection_man.erl"},{line,23}]},{mc_action_man,read,2,[{file,"src/core/mc_action_man.erl"},{line,18}]},{mc_w,get_data,4,[{file,"src/mc_w.erl"},{line,110}]},{mc_w,handle_call,3,[{file,"src/mc_w.erl"},{line,53}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,607}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,639}]}]},{gen_server,call,[{ok,<0.84.0>},{query,false,false,false,false,<<"likes">>,0,0,{like_to,<<"1069601">>},{<<"author.uid">>,true}},infinity]}}
+     Offender:   [{pid,<0.93.0>},{name,mc_w},{mfargs,{mc_w,start_link,undefined}},{restart_type,temporary},{shutdown,brutal_kill},{child_type,worker}]
+
+2015-06-24 20:29:43 =SUPERVISOR REPORT====
+     Supervisor: {local,emcp_sup}
+     Context:    child_terminated
+     Reason:     killed
+     Offender:   [{pid,<0.78.0>},{name,mc_cp},{mfargs,{mc_cp,start_link,[]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2015-06-24 20:30:11 =SUPERVISOR REPORT====
+     Supervisor: {local,emcp_sup}
+     Context:    child_terminated
+     Reason:     killed
+     Offender:   [{pid,<0.126.0>},{name,mc_cp},{mfargs,{mc_cp,start_link,[]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2015-06-24 20:46:49 =SUPERVISOR REPORT====
+     Supervisor: {local,mc_c_sup}
+     Context:    child_terminated
+     Reason:     killed
+     Offender:   [{pid,<0.80.0>},{name,mongo},{mfargs,{mongo,connect,undefined}},{restart_type,temporary},{shutdown,brutal_kill},{child_type,worker}]
+

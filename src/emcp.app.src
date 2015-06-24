@@ -12,5 +12,6 @@
          {host, "localhost"},
          {port, 27017},
          {db, <<"test">>},
-         {timeout, 2000}]}
+         {timeout, 2000},
+         {max_conn, 10}]}
  ]}.

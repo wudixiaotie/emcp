@@ -10,6 +10,7 @@
 %% ===================================================================
 
 start (_StartType, _StartArgs) ->
+    lager:start (),
     application:start (bson),
     application:start (crypto),
     application:start (mongodb),
@@ -19,4 +20,5 @@ stop (_State) ->
     application:stop (mongodb),
     application:stop (crypto),
     application:stop (bson),
+    lager:stop (),
     ok.
