@@ -8,3 +8,5 @@ deps
 .DS_Store
 eunit.coverage.xml
 .rebar
+log
+.log
