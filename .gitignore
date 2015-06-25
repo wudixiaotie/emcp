@@ -9,4 +9,4 @@ deps
 eunit.coverage.xml
 .rebar
 log
-.log
+*.log
