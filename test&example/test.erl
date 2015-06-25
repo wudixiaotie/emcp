@@ -2,14 +2,14 @@
 
 -compile (export_all).
 
-% db.jvm_feeds.insert ({id: "1069601", photo: {mention: ["10801","10792","20861","20863", "1", "2"]}})
-% db.jvm_likes.insert ({like_to: "1069601", author: {uid: ["10801","10792","20863"]}})
-% db.jvm_comments.insert ({comment_to: "1069601", author: {uid: ["10801", "1", "2"]}})
+% db.feeds.insert ({id: "1069601", photo: {mention: ["10801","10792","20861","20863", "1", "2"]}})
+% db.likes.insert ({like_to: "1069601", author: {uid: ["10801","10792","20863"]}})
+% db.comments.insert ({comment_to: "1069601", author: {uid: ["10801", "1", "2"]}})
 a () ->
     emcp:start (),
-    emcp:find (<<"jvm_likes">>, {like_to, <<"1069601">>}, {<<"author.uid">>, true}),
-    emcp:find (<<"jvm_likes">>, {like_to, <<"1069601">>}, {<<"author.uid">>, true}),
-    emcp:find_only (<<"jvm_likes">>, {like_to, <<"1069601">>}, {<<"author.uid">>, true}).
+    emcp:find (<<"likes">>, {like_to, <<"1069601">>}, {<<"author.uid">>, true}),
+    emcp:find (<<"likes">>, {like_to, <<"1069601">>}, {<<"author.uid">>, true}),
+    emcp:find_only (<<"likes">>, {like_to, <<"1069601">>}, {<<"author.uid">>, true}).
 
 
 load_test () ->
@@ -23,7 +23,7 @@ loop (Index) ->
     case Index == 4 of
         true -> ok;
         false ->
-            emcp:find_only (<<"jvm_likes">>,
+            emcp:find_only (<<"likes">>,
                             {like_to, <<"1069601">>},
                             {<<"author.uid">>, true}),
             receive
@@ -34,7 +34,7 @@ loop (Index) ->
     end.
 
 tc () ->
-    tc:tc (emcp, find_only, [<<"jvm_likes">>, {like_to, <<"1069601">>}, {<<"author.uid">>, true}]).
+    tc:tc (emcp, find_only, [<<"likes">>, {like_to, <<"1069601">>}, {<<"author.uid">>, true}]).
 
 b () ->
     emcp:start (),
