@@ -136,21 +136,21 @@ code_change (_OldVer, State, _Extra) -> {ok, State}.
 %% Internal functions
 %% ===================================================================
 
-loop_start_workers (Current, FKQ) ->
-    case Current > 0 of
+loop_start_workers (Index, FKQ) ->
+    case Index > 0 of
         false -> {ok, FKQ};
         true ->
-            Next = Current - 1,
+            Next = Index - 1,
             {ok, WorkerPid} = spawn_mc_w (),
             NewFKQ = queue:in (WorkerPid, FKQ),
             loop_start_workers (Next, NewFKQ)
     end.
 
-loop_kill_workers (Current, FKQ) ->
-    case Current > 0 of
+loop_kill_workers (Index, FKQ) ->
+    case Index > 0 of
         false -> {ok, FKQ};
         true ->
-            Next = Current - 1,
+            Next = Index - 1,
             {{value, WorkerPid}, NewFKQ} = queue:out (FKQ),
             terminate_mc_w (WorkerPid),
             loop_kill_workers (Next, NewFKQ)

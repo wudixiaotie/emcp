@@ -15,7 +15,8 @@
 -export ([init/1, handle_call/3, handle_cast/2, handle_info/2,
           terminate/2, code_change/3]).
 
--record (state, {conn :: pid ()}).
+% key = ets connection key
+-record (state, {key :: integer (), conn :: pid ()}).
 
 
 %% ===================================================================
@@ -41,20 +42,20 @@ find_only (Collection, Selector, Projector) ->
 %% ===================================================================
 
 init ([]) ->
-    {ok, Connection} = mc_c_manager:get_conn (),
-    {ok, #state{conn = Connection}}.
+    {ok, Key, Connection} = mc_c_manager:get_conn (),
+    {ok, #state{key = Key, conn = Connection}}.
 
 
 handle_call ({find, Collection, Selector}, _From, State) ->
-    {NewConnection, MongoResult} = get_data (State#state.conn, Collection, Selector),
+    {NewConnection, MongoResult} = get_data (State, Collection, Selector),
     Reply = {ok, MongoResult},
     {reply, Reply, State#state{conn = NewConnection}};
 handle_call ({find, Collection, Selector, Projector}, _From, State) ->
-    {NewConnection, MongoResult} = get_data (State#state.conn, Collection, Selector, Projector),
+    {NewConnection, MongoResult} = get_data (State, Collection, Selector, Projector),
     Reply = {ok, MongoResult},
     {reply, Reply, State#state{conn = NewConnection}};
 handle_call ({find_only, Collection, Selector, Projector}, _From, State) ->
-    {NewConnection, MongoResult} = get_data (State#state.conn, Collection, Selector, Projector),
+    {NewConnection, MongoResult} = get_data (State, Collection, Selector, Projector),
     Reply = {ok, loop_result (MongoResult)},
     {reply, Reply, State#state{conn = NewConnection}};
 
@@ -95,18 +96,18 @@ call (Request) ->
     end.
 
 
-get_data (Connection, Collection, Selector) ->
-    get_data (Connection, Collection, Selector, {}).
+get_data (State, Collection, Selector) ->
+    get_data (State, Collection, Selector, {}).
 
 
-get_data (Connection, Collection, Selector, Projector) ->
+get_data (#state{key = Key, conn = Connection}, Collection, Selector, Projector) ->
     Reply = (catch mongo:find (Connection, Collection, Selector, Projector)),
     case is_pid (Reply) of
         true ->
             Cursor = Reply,
             NewConnection = Connection;
         false ->
-            {ok, NewConnection} = mc_c_manager:get_conn (),
+            {ok, NewConnection} = mc_c_manager:update_conn (Key),
             Cursor = mongo:find (NewConnection, Collection, Selector, Projector)
     end,
     Result = mc_cursor:rest (Cursor),

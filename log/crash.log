@@ -766,3 +766,233 @@
      Reason:     killed
      Offender:   [{pid,<0.80.0>},{name,mongo},{mfargs,{mongo,connect,undefined}},{restart_type,temporary},{shutdown,brutal_kill},{child_type,worker}]
 
+2015-06-25 10:52:42 =CRASH REPORT====
+  crasher:
+    initial call: mc_worker:init/1
+    pid: <0.80.0>
+    registered_name: []
+    exception error: {{badmatch,{error,econnrefused}},[{mc_worker,init,1,[{file,"src/connection/mc_worker.erl"},{line,32}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,237}]}]}
+    ancestors: [mc_c_sup,emcp_sup,<0.37.0>]
+    messages: []
+    links: [<0.78.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 376
+    stack_size: 27
+    reductions: 534
+  neighbours:
+2015-06-25 10:52:42 =CRASH REPORT====
+  crasher:
+    initial call: mc_c_manager:init/1
+    pid: <0.79.0>
+    registered_name: []
+    exception exit: {{{badmatch,{error,{badmatch,{error,econnrefused}}}},[{mc_c_manager,'-init/1-fun-0-',1,[{file,"src/mc_c_manager.erl"},{line,53}]},{lists,foreach,2,[{file,"lists.erl"},{line,1336}]},{mc_c_manager,init,1,[{file,"src/mc_c_manager.erl"},{line,56}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,306}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,237}]}]},[{gen_server,init_it,6,[{file,"gen_server.erl"},{line,330}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,237}]}]}
+    ancestors: [emcp_sup,<0.37.0>]
+    messages: []
+    links: [<0.77.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 610
+    stack_size: 27
+    reductions: 145
+  neighbours:
+2015-06-25 10:52:42 =SUPERVISOR REPORT====
+     Supervisor: {local,emcp_sup}
+     Context:    start_error
+     Reason:     {{badmatch,{error,{badmatch,{error,econnrefused}}}},[{mc_c_manager,'-init/1-fun-0-',1,[{file,"src/mc_c_manager.erl"},{line,53}]},{lists,foreach,2,[{file,"lists.erl"},{line,1336}]},{mc_c_manager,init,1,[{file,"src/mc_c_manager.erl"},{line,56}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,306}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,237}]}]}
+     Offender:   [{pid,undefined},{name,mc_c_manager},{mfargs,{mc_c_manager,start_link,[]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2015-06-25 10:52:42 =CRASH REPORT====
+  crasher:
+    initial call: application_master:init/4
+    pid: <0.36.0>
+    registered_name: []
+    exception exit: {{{shutdown,{failed_to_start_child,mc_c_manager,{{badmatch,{error,{badmatch,{error,econnrefused}}}},[{mc_c_manager,'-init/1-fun-0-',1,[{file,"src/mc_c_manager.erl"},{line,53}]},{lists,foreach,2,[{file,"lists.erl"},{line,1336}]},{mc_c_manager,init,1,[{file,"src/mc_c_manager.erl"},{line,56}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,306}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,237}]}]}}},{emcp_app,start,[normal,[]]}},[{application_master,init,4,[{file,"application_master.erl"},{line,133}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,237}]}]}
+    ancestors: [<0.35.0>]
+    messages: [{'EXIT',<0.37.0>,normal}]
+    links: [<0.35.0>,<0.7.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 987
+    stack_size: 27
+    reductions: 170
+  neighbours:
+2015-06-25 10:52:58 =ERROR REPORT====
+** Generic server mc_c_manager terminating 
+** Last message in was index
+** When Server state == {state,10,undefined}
+** Reason for termination == 
+** {badarith,[{mc_c_manager,handle_call,3,[{file,"src/mc_c_manager.erl"},{line,61}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,607}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,639}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,237}]}]}
+2015-06-25 10:52:58 =CRASH REPORT====
+  crasher:
+    initial call: mc_c_manager:init/1
+    pid: <0.89.0>
+    registered_name: mc_c_manager
+    exception exit: {{badarith,[{mc_c_manager,handle_call,3,[{file,"src/mc_c_manager.erl"},{line,61}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,607}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,639}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,237}]}]},[{gen_server,terminate,7,[{file,"gen_server.erl"},{line,804}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,237}]}]}
+    ancestors: [emcp_sup,<0.86.0>]
+    messages: []
+    links: [<0.87.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 610
+    stack_size: 27
+    reductions: 294
+  neighbours:
+2015-06-25 10:52:58 =CRASH REPORT====
+  crasher:
+    initial call: mc_w:init/1
+    pid: <0.102.0>
+    registered_name: []
+    exception exit: {{{badarith,[{mc_c_manager,handle_call,3,[{file,"src/mc_c_manager.erl"},{line,61}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,607}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,639}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,237}]}]},{gen_server,call,[mc_c_manager,index]}},[{gen_server,init_it,6,[{file,"gen_server.erl"},{line,330}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,237}]}]}
+    ancestors: [mc_w_sup,emcp_sup,<0.86.0>]
+    messages: []
+    links: [<0.100.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 610
+    stack_size: 27
+    reductions: 122
+  neighbours:
+2015-06-25 10:52:58 =SUPERVISOR REPORT====
+     Supervisor: {local,mc_w_sup}
+     Context:    child_terminated
+     Reason:     {{badarith,[{mc_c_manager,handle_call,3,[{file,"src/mc_c_manager.erl"},{line,61}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,607}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,639}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,237}]}]},{gen_server,call,[mc_c_manager,index]}}
+     Offender:   [{pid,<0.102.0>},{name,mc_w},{mfargs,{mc_w,start_link,undefined}},{restart_type,temporary},{shutdown,brutal_kill},{child_type,worker}]
+
+2015-06-25 10:52:58 =CRASH REPORT====
+  crasher:
+    initial call: mc_w_manager:init/1
+    pid: <0.101.0>
+    registered_name: []
+    exception exit: {{{badmatch,{error,{{badarith,[{mc_c_manager,handle_call,3,[{file,"src/mc_c_manager.erl"},{line,61}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,607}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,639}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,237}]}]},{gen_server,call,[mc_c_manager,index]}}}},[{mc_w_manager,loop_start_workers,2,[{file,"src/mc_w_manager.erl"},{line,144}]},{mc_w_manager,init,1,[{file,"src/mc_w_manager.erl"},{line,51}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,306}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,237}]}]},[{gen_server,init_it,6,[{file,"gen_server.erl"},{line,330}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,237}]}]}
+    ancestors: [emcp_sup,<0.86.0>]
+    messages: []
+    links: [<0.87.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 987
+    stack_size: 27
+    reductions: 193
+  neighbours:
+2015-06-25 10:52:58 =SUPERVISOR REPORT====
+     Supervisor: {local,emcp_sup}
+     Context:    start_error
+     Reason:     {{badmatch,{error,{{badarith,[{mc_c_manager,handle_call,3,[{file,"src/mc_c_manager.erl"},{line,61}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,607}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,639}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,237}]}]},{gen_server,call,[mc_c_manager,index]}}}},[{mc_w_manager,loop_start_workers,2,[{file,"src/mc_w_manager.erl"},{line,144}]},{mc_w_manager,init,1,[{file,"src/mc_w_manager.erl"},{line,51}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,306}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,237}]}]}
+     Offender:   [{pid,undefined},{name,mc_w_manager},{mfargs,{mc_w_manager,start_link,[]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2015-06-25 10:52:58 =SUPERVISOR REPORT====
+     Supervisor: {local,emcp_sup}
+     Context:    shutdown_error
+     Reason:     {badarith,[{mc_c_manager,handle_call,3,[{file,"src/mc_c_manager.erl"},{line,61}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,607}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,639}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,237}]}]}
+     Offender:   [{pid,<0.89.0>},{name,mc_c_manager},{mfargs,{mc_c_manager,start_link,[]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2015-06-25 10:52:58 =CRASH REPORT====
+  crasher:
+    initial call: application_master:init/4
+    pid: <0.85.0>
+    registered_name: []
+    exception exit: {{{shutdown,{failed_to_start_child,mc_w_manager,{{badmatch,{error,{{badarith,[{mc_c_manager,handle_call,3,[{file,"src/mc_c_manager.erl"},{line,61}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,607}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,639}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,237}]}]},{gen_server,call,[mc_c_manager,index]}}}},[{mc_w_manager,loop_start_workers,2,[{file,"src/mc_w_manager.erl"},{line,144}]},{mc_w_manager,init,1,[{file,"src/mc_w_manager.erl"},{line,51}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,306}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,237}]}]}}},{emcp_app,start,[normal,[]]}},[{application_master,init,4,[{file,"application_master.erl"},{line,133}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,237}]}]}
+    ancestors: [<0.84.0>]
+    messages: [{'EXIT',<0.86.0>,normal}]
+    links: [<0.84.0>,<0.7.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 987
+    stack_size: 27
+    reductions: 146
+  neighbours:
+2015-06-25 10:53:00 =ERROR REPORT====
+** Generic server mc_c_manager terminating 
+** Last message in was index
+** When Server state == {state,10,undefined}
+** Reason for termination == 
+** {badarith,[{mc_c_manager,handle_call,3,[{file,"src/mc_c_manager.erl"},{line,61}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,607}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,639}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,237}]}]}
+2015-06-25 10:53:00 =CRASH REPORT====
+  crasher:
+    initial call: mc_c_manager:init/1
+    pid: <0.109.0>
+    registered_name: mc_c_manager
+    exception exit: {{badarith,[{mc_c_manager,handle_call,3,[{file,"src/mc_c_manager.erl"},{line,61}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,607}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,639}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,237}]}]},[{gen_server,terminate,7,[{file,"gen_server.erl"},{line,804}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,237}]}]}
+    ancestors: [emcp_sup,<0.106.0>]
+    messages: []
+    links: [<0.107.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 610
+    stack_size: 27
+    reductions: 294
+  neighbours:
+2015-06-25 10:53:00 =CRASH REPORT====
+  crasher:
+    initial call: mc_w:init/1
+    pid: <0.122.0>
+    registered_name: []
+    exception exit: {{{badarith,[{mc_c_manager,handle_call,3,[{file,"src/mc_c_manager.erl"},{line,61}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,607}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,639}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,237}]}]},{gen_server,call,[mc_c_manager,index]}},[{gen_server,init_it,6,[{file,"gen_server.erl"},{line,330}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,237}]}]}
+    ancestors: [mc_w_sup,emcp_sup,<0.106.0>]
+    messages: []
+    links: [<0.120.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 610
+    stack_size: 27
+    reductions: 122
+  neighbours:
+2015-06-25 10:53:00 =SUPERVISOR REPORT====
+     Supervisor: {local,mc_w_sup}
+     Context:    child_terminated
+     Reason:     {{badarith,[{mc_c_manager,handle_call,3,[{file,"src/mc_c_manager.erl"},{line,61}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,607}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,639}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,237}]}]},{gen_server,call,[mc_c_manager,index]}}
+     Offender:   [{pid,<0.122.0>},{name,mc_w},{mfargs,{mc_w,start_link,undefined}},{restart_type,temporary},{shutdown,brutal_kill},{child_type,worker}]
+
+2015-06-25 10:53:00 =CRASH REPORT====
+  crasher:
+    initial call: mc_w_manager:init/1
+    pid: <0.121.0>
+    registered_name: []
+    exception exit: {{{badmatch,{error,{{badarith,[{mc_c_manager,handle_call,3,[{file,"src/mc_c_manager.erl"},{line,61}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,607}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,639}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,237}]}]},{gen_server,call,[mc_c_manager,index]}}}},[{mc_w_manager,loop_start_workers,2,[{file,"src/mc_w_manager.erl"},{line,144}]},{mc_w_manager,init,1,[{file,"src/mc_w_manager.erl"},{line,51}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,306}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,237}]}]},[{gen_server,init_it,6,[{file,"gen_server.erl"},{line,330}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,237}]}]}
+    ancestors: [emcp_sup,<0.106.0>]
+    messages: []
+    links: [<0.107.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 987
+    stack_size: 27
+    reductions: 185
+  neighbours:
+2015-06-25 10:53:00 =SUPERVISOR REPORT====
+     Supervisor: {local,emcp_sup}
+     Context:    start_error
+     Reason:     {{badmatch,{error,{{badarith,[{mc_c_manager,handle_call,3,[{file,"src/mc_c_manager.erl"},{line,61}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,607}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,639}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,237}]}]},{gen_server,call,[mc_c_manager,index]}}}},[{mc_w_manager,loop_start_workers,2,[{file,"src/mc_w_manager.erl"},{line,144}]},{mc_w_manager,init,1,[{file,"src/mc_w_manager.erl"},{line,51}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,306}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,237}]}]}
+     Offender:   [{pid,undefined},{name,mc_w_manager},{mfargs,{mc_w_manager,start_link,[]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2015-06-25 10:53:00 =SUPERVISOR REPORT====
+     Supervisor: {local,emcp_sup}
+     Context:    shutdown_error
+     Reason:     {badarith,[{mc_c_manager,handle_call,3,[{file,"src/mc_c_manager.erl"},{line,61}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,607}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,639}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,237}]}]}
+     Offender:   [{pid,<0.109.0>},{name,mc_c_manager},{mfargs,{mc_c_manager,start_link,[]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2015-06-25 10:53:00 =CRASH REPORT====
+  crasher:
+    initial call: application_master:init/4
+    pid: <0.105.0>
+    registered_name: []
+    exception exit: {{{shutdown,{failed_to_start_child,mc_w_manager,{{badmatch,{error,{{badarith,[{mc_c_manager,handle_call,3,[{file,"src/mc_c_manager.erl"},{line,61}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,607}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,639}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,237}]}]},{gen_server,call,[mc_c_manager,index]}}}},[{mc_w_manager,loop_start_workers,2,[{file,"src/mc_w_manager.erl"},{line,144}]},{mc_w_manager,init,1,[{file,"src/mc_w_manager.erl"},{line,51}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,306}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,237}]}]}}},{emcp_app,start,[normal,[]]}},[{application_master,init,4,[{file,"application_master.erl"},{line,133}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,237}]}]}
+    ancestors: [<0.104.0>]
+    messages: [{'EXIT',<0.106.0>,normal}]
+    links: [<0.104.0>,<0.7.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 987
+    stack_size: 27
+    reductions: 146
+  neighbours:

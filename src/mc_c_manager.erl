@@ -9,13 +9,13 @@
 -behaviour (gen_server).
 
 % APIs
--export ([start_link/0, get_conn/0, update_conn/0]).
+-export ([start_link/0, get_conn/0, update_conn/1]).
 
 % gen_server callbacks
 -export ([init/1, handle_call/3, handle_cast/2, handle_info/2,
           terminate/2, code_change/3]).
 
--record (state, {max_conn :: integer ()}).
+-record (state, {max :: integer (), index :: integer()}).
 
 %% ===================================================================
 %% APIs
@@ -25,14 +25,20 @@ start_link () ->
     gen_server:start_link ({local, ?MODULE}, ?MODULE, [], []).
 
 get_conn () ->
-    <<A:32, B:32, C:32>> = crypto:strong_rand_bytes (12),
-    random:seed (A, B, C),
-    {ok, MaxConn} = gen_server:call (?MODULE, max_conn),
-    Random = random:uniform (MaxConn),
-    [{_, Conn}] = ets:lookup (mongo_conns, Random),
-    {ok, Conn}.
+    {ok, Key} = gen_server:call (?MODULE, index),
+    [{_, Conn}] = ets:lookup (mongo_conns, Key),
+    {ok, Key, Conn}.
 
-update_conn () ->ok.
+update_conn (Key) ->
+    [{_, Conn}] = ets:lookup (mongo_conns, Key),
+    case is_process_alive (Conn) of
+        true ->
+            {ok, Conn};
+        false ->
+            {ok, NewConn} = new_connection (),
+            ets:update_element (test, Key, {2, NewConn}),
+            {ok, NewConn}
+    end.
     
 
 %% ===================================================================
@@ -40,13 +46,25 @@ update_conn () ->ok.
 %% ===================================================================
 
 init ([]) ->
-    ets:new (mongo_conns, [set, named_table, public, {write_concurrency, true}]),
-    MaxConn = emcp_config:max_conn (),
-    loop (MaxConn),
-    {ok, #state{max_conn = MaxConn}}.
+    % write_concurrency:true 并发写 锁记录而不锁表
+    ets:new (mongo_conns, [set, named_table, public, {read_concurrency, true}]),
+    Max = emcp_config:max_conn (),
+    F = fun (Index) ->
+            {ok, Conn} = new_connection (),
+            ets:insert (mongo_conns, [{Index, Conn}])
+        end,
+    lists:foreach (F, lists:seq (1, Max)),
+    {ok, #state{max = Max, index = 1}}.
 
 
-handle_call (max_conn, _From, State) -> {reply, {ok, State#state.max_conn}, State};
+handle_call (index, _From, #state{max = Max, index = Index} = State) ->
+    case Max - Index > 0 of
+        true ->
+            NewState = State#state{index = Index + 1};
+        false ->
+            NewState = State#state{index = 1}
+    end,
+    {reply, {ok, Index}, NewState};
 handle_call (_Request, _From, State) -> {reply, nomatch, State}.
 
 
@@ -62,14 +80,3 @@ code_change (_OldVer, State, _Extra) -> {ok, State}.
 
 new_connection () ->
     supervisor:start_child (mc_c_sup, []).
-
-loop (Current) ->
-    case Current > 0 of
-        true ->
-            Next = Current - 1,
-            {ok, Conn} = new_connection (),
-            ets:insert (mongo_conns, [{Current, Conn}]),
-            loop (Next);
-        false ->
-            ok
-    end.
