@@ -15,7 +15,7 @@
 -export ([init/1]).
 
 %% Helper macro for declaring children of supervisor
--define (CHILD(Mod, Args), {Mod, {Mod, connect, Args}, temporary, brutal_kill, worker, [Mod]}).
+-define (CHILD (Args), {mongo, {mongo, connect, Args}, temporary, brutal_kill, worker, [mongo]}).
 
 %% ===================================================================
 %% API functions
@@ -31,4 +31,4 @@ start_link () ->
 init ([]) ->
     {Host, Port, DB} = emcp_config:hpd (),
     Args = [DB, [{host, Host}, {port, Port}]],
-    {ok, { {simple_one_for_one, 0, 1}, [?CHILD(mongo, Args)] } }.
+    {ok, { {simple_one_for_one, 0, 1}, [?CHILD (Args)] } }.

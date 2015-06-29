@@ -10,15 +10,7 @@
 %% ===================================================================
 
 start (_StartType, _StartArgs) ->
-    lager:start (),
-    application:start (bson),
-    application:start (crypto),
-    application:start (mongodb),
     emcp_sup:start_link ().
 
 stop (_State) ->
-    application:stop (mongodb),
-    application:stop (crypto),
-    application:stop (bson),
-    lager:stop (),
     ok.

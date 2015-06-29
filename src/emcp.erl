@@ -5,9 +5,15 @@
 
 
 start () ->
+    application:start (bson),
+    application:start (crypto),
+    application:start (mongodb),
     application:start (emcp).
 
 stop () ->
+    application:start (bson),
+    application:start (crypto),
+    application:start (mongodb),
     application:stop (emcp).
 
 find (Collection, Selector) ->

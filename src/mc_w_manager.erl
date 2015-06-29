@@ -68,7 +68,7 @@ handle_call (get_worker, _From, #state{fkq = FKQ} = State) ->
             {reply, {ok, Pid}, State#state{fkq = NewFKQ}};
         true ->
             % 进程不够增加进程
-            lager:info ("spawn a new worker"),
+            io:format ("[INFO] spawn a new worker~n"),
             {reply, spawn_mc_w (), State}
     end;
 handle_call (queue_len, _From, #state{fkq = FKQ} = State) ->
@@ -107,21 +107,21 @@ handle_info (recycle, #state{size = Size, fkq = FKQ} = State) ->
                         false ->
                             RecycleCount = QueueCanRecycleCount div 2 + 1
                     end,
-                    lager:info("mc_w_manager recycle: kill ~p workers.", [RecycleCount]),
+                    io:format ("[INFO] mc_w_manager recycle: kill ~p workers.~n", [RecycleCount]),
                     {ok, NewFKQ} = loop_kill_workers (RecycleCount, FKQ),
                     NewState = State#state{fkq = NewFKQ};
                 % 空闲的worker少于5则不回收
                 false ->
-                    lager:info("mc_w_manager recycle: kill 0 worker."),
+                    io:format ("[INFO] mc_w_manager recycle: kill 0 worker.~n"),
                     NewState = State
             end;
         RedundantCount == 0 ->
-            lager:info("mc_w_manager recycle: no need."),
+            io:format ("[INFO] mc_w_manager recycle: no need.~n"),
             NewState = State;
         % 超出的worker数量小于0，则增加worker
         RedundantCount < 0 ->
             AbsRedundantCount = erlang:abs (RedundantCount),
-            lager:info("mc_w_manager recycle: add ~p workers.", [AbsRedundantCount]),
+            io:format ("[INFO] mc_w_manager recycle: add ~p workers.~n", [AbsRedundantCount]),
             {ok, NewFKQ} = loop_start_workers (AbsRedundantCount, FKQ),
             NewState = State#state{fkq = NewFKQ}
     end,
